@@ -76,7 +76,7 @@ navItems.push({ label: "Contact", href: "/contact" })
     }
 
     .dz-nav__list {
-        display: flex;
+        display: none;
         flex-direction: row;
         justify-content: center;
     }
@@ -183,28 +183,30 @@ navItems.push({ label: "Contact", href: "/contact" })
             display: flex;
             justify-content: flex-start;
             top: 0;
-            left: 0;
+            left: calc(-80vw - 36px);
             flex-flow: column nowrap;
-            width: 80%;
+            width: 80vw;
             height: 100vh;
             box-shadow: 0 0 10px #85888C;
-            margin: -28px 0 0 -28px;
-            padding: 15vh 16px 24px;
+            margin: -25px 0 0 -16px;
+            padding: 15vh 24px 24px 0;
             background-color: white;
             -webkit-font-smoothing: antialiased;
             transform-origin: 0% 0%;
-            transform: translate(-100%, 0);
+            transform: translate(0%, 0);
             transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
         }
 
         .dz-nav__list li {
             padding: 10px 0;
             transition-delay: 2s;
-            margin-left: 10px;
+            margin-left: 16px;
         }
 
         .dz-nav__menu-toggle input:checked~ul {
-            transform: none;
+            transform-origin: 0% 0%;
+            transform: translate(calc(80vw + 36px), 0);
+            transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
         }
 
         a,

@@ -35,7 +35,7 @@ const { title, thumbnail } = content
         <Title title={ title }></Title>
         <main>
             <div class="dz-main-container">
-                <img class="dz-image" src={thumbnail} style={`shape-outside: url(${thumbnail})`} />
+                { thumbnail ? <img class="dz-image" src={thumbnail} style={`shape-outside: url(${thumbnail})`} /> : '' }
                 <slot />
             </div>
         </main>
