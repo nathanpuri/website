@@ -4,16 +4,17 @@ import Title from '../components/Title.astro';
 import Layout from '../layouts/Layout.astro';
 
 let glob = []
-let aboutContent = ''
+let AboutContent
+
 try {
-	glob = await Astro.glob('../pages/_netlify_cms_content/about.md');
+	glob = await Astro.glob('./about.md');
 } catch (err) {
 	console.error('Unable to retrieve about.md:', err);
 }
 
 if (glob) {
 	const aboutPage = glob[0]
-	aboutContent = aboutPage?.Content
+	AboutContent = aboutPage?.Content
 }
 ---
 
@@ -22,7 +23,8 @@ if (glob) {
 	<Title title="About Natan"></Title>
 	<main>
 		<div class="dz-main-container">
-			{ aboutContent }
+			{AboutContent ?
+			<AboutContent /> : '' }
 		</div>
 	</main>
 </Layout>

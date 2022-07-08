@@ -11,31 +11,30 @@ editor:
 publish_mode: editorial_workflow
 
 collections:
+  - label: "Miscellaneous Pages"
+    name: "misc"
+    folder: "src/pages/_netlify_cms_content"
+    create: true
+    fields: # The fields for each document, usually in front matter
+      - {
+          label: "Layout",
+          name: "layout",
+          widget: "hidden",
+          default: "$/layouts/netlify_cms.astro",
+        }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: Slug, name: slug, widget: string }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Featured Image", name: "thumbnail", widget: "image" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Tags", name: "tags", widget: "list" }
   - label: "Pages"
     name: "pages"
     files:
       - label: "About Page"
         name: "about"
-        file: "src/pages/_netlify_cms_content/about.md"
+        file: "src/pages/about.md"
         fields:
           - { label: Title, name: title, widget: string }
-          - { label: Slug, name: slug, widget: string }
           - { label: Body, name: body, widget: markdown }
-      - label: "Miscellaneous Pages"
-        name: "misc"
-        folder: "src/pages/_netlify_cms_content"
-        create: true
-        fields: # The fields for each document, usually in front matter
-          - {
-              label: "Layout",
-              name: "layout",
-              widget: "hidden",
-              default: "$/layouts/netlify_cms.astro",
-            }
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: Slug, name: slug, widget: string }
-          - { label: "Description", name: "description", widget: "text" }
-          - { label: "Publish Date", name: "date", widget: "datetime" }
-          - { label: "Featured Image", name: "thumbnail", widget: "image" }
-          - { label: "Body", name: "body", widget: "markdown" }
-          - { label: "Tags", name: "tags", widget: "list" }
