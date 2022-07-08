@@ -1,14 +1,12 @@
 ---
 import Nav from '../components/Nav.astro';
 import Title from '../components/Title.astro';
-import Layout from '../layouts/Layout.astro';
-
 export interface Props {
     content: any;
 }
 
 const { content } = Astro.props as Props;
-const { title } = content
+const { title, thumbnail } = content
 ---
 
 <!DOCTYPE html>
@@ -37,6 +35,7 @@ const { title } = content
         <Title title={ title }></Title>
         <main>
             <div class="dz-main-container">
+                <img class="dz-image" src={thumbnail} style={`shape-outside: url(${thumbnail})`} />
                 <slot />
             </div>
         </main>
@@ -138,10 +137,13 @@ const { title } = content
     }
 
     :global(.dz-main-container) {
-        display: flex;
-        flex-flow: nowrap;
-        width: 66%;
+        display: block;
         margin: 0 10px;
+    }
+
+    :global(.dz-main-container p) {
+        text-align: justify;
+        width: 100%;
     }
 
     :global(.dz-row-wrapper) {
@@ -150,8 +152,12 @@ const { title } = content
     }
 
     :global(.dz-image) {
+        height: 100%;
+        max-height: 30vh;
+        float: right;
+        margin: 0 0 0 8px;
         border: 1px solid var(--color-primary-red);
-        margin-right: 10px;
+        shape-margin: 16px;
     }
 
     :global(.dz-sidebar) {
@@ -159,21 +165,6 @@ const { title } = content
         flex-direction: column;
         align-items: flex-end;
         width: 34%;
-    }
-
-    :global(.dz-sidebar__iframe-container) {
-        position: relative;
-        width: 100%;
-        height: 0;
-        padding-bottom: 56.25%;
-    }
-
-    :global(.dz-sidebar__iframe-container iframe) {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
     }
 
     :global(.dz-image__caption) {

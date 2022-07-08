@@ -9,8 +9,8 @@ editor:
   preview: false # we're going to hide the preview editor
 
 collections:
-  - label: "Miscellaneous Pages"
-    name: "misc"
+  - label: "Pages"
+    name: "pages"
     folder: "/src/pages"
     create: true
     fields: # The fields for each document, usually in front matter
@@ -30,12 +30,3 @@ collections:
           widget: "image",
           required: false,
         }
-  - label: "Pages"
-    name: "pages"
-    files:
-      - label: "About Page"
-        name: "about"
-        file: "/src/pages/about.md"
-        fields:
-          - { label: Title, name: title, widget: string }
-          - { label: Body, name: body, widget: markdown }
