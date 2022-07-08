@@ -1,5 +1,5 @@
 ---
-layout: src/layouts/netlify_cms.astro
+layout: /src/layouts/netlify_cms.astro
 title: Mahayana In Daily Life
 slug: mahayana-in-daily-life
 description: Teaching on Mahayana
