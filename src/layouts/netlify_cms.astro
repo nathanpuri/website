@@ -1,16 +1,31 @@
 ---
+import { LanguageSelector, HeadHrefLangs } from "astro-i18next/components";
+import i18next, { t } from "i18next";
 import Nav from '../components/Nav.astro';
 import Title from '../components/Title.astro';
+
 export interface Props {
     content: any;
 }
 
 const { content } = Astro.props as Props;
 const { title, thumbnail } = content
+
+export function getStaticPaths() {
+    const languageRoutes = [];
+    i18next.languages.forEach((lang) => {
+        languageRoutes.push({ params: { lang } });
+    });
+    return languageRoutes;
+}
+
+const { lang } = Astro.params;
+
+i18next.changeLanguage(lang as string);
 ---
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang={i18next.language}>
 
 <head>
     <meta charset="UTF-8">
@@ -20,6 +35,7 @@ const { title, thumbnail } = content
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
+    <HeadHrefLangs />
     <title>{title}</title>
 </head>
 
@@ -32,6 +48,7 @@ const { title, thumbnail } = content
             </div>
         </a>
         <Nav />
+        <LanguageSelector showFlag={true} class="my-select-class" />
         <Title title={ title }></Title>
         <main>
             <div class="dz-main-container">

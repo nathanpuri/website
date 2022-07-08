@@ -1,4 +1,6 @@
 ---
+import { localizePath } from "astro-i18next";
+
 let netlifyPages = []
 try {
     netlifyPages = await Astro.glob('../pages/*.md');
@@ -9,10 +11,11 @@ try {
 const navItems = netlifyPages.map(page => {
     return {
         label: page.frontmatter.title,
-        href: `/${page.frontmatter.slug}`
+        href: localizePath(`/${page.frontmatter.slug}`)
     }
 });
-navItems.push({ label: "Contact", href: "/contact" })
+
+navItems.push({ label: "Contact", href: localizePath("/contact") })
 ---
 
 <nav class="dz-nav">
