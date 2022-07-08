@@ -1,0 +1,25 @@
+---
+export interface Props {
+    title: string;
+}
+
+const { title } = Astro.props as Props;
+---
+
+<h1 class="dz-title">{title}</h1>
+
+<style>
+    .dz-title {
+        font-family: "georgia";
+        color: var(--color-primary-red);
+        font-size: var(--font-size-xl);
+        line-height: 1;
+        margin-left: 10px;
+    }
+
+    @media screen and (max-width: 672px) {
+        .dz-title {
+            margin: 16px 16px 24px;
+        }
+    }
+</style>

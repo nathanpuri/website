@@ -1,0 +1,14 @@
+{
+  "name": "nathan-puri-website",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "devDependencies": {
+    "astro": "^1.0.0-beta.44"
+  }
+}

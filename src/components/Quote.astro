@@ -1,0 +1,73 @@
+---
+export interface Props {
+    quote: string;
+    sign?: string;
+    isSidebarQuote?: boolean;
+}
+
+const { quote, sign, isSidebarQuote } = Astro.props as Props;
+---
+
+<figure class={"dz-quote", isSidebarQuote ? 'dz-quote--sidebar' : '' }>
+    { isSidebarQuote ? <h2 class="dz-sidebar__heading">Dzogchen quote</h2> : '' }
+    <blockquote>
+        <p class="dz-quote__text" set:html={quote} />
+    </blockquote>
+    { sign ? <figcaption class="dz-quote__sign">—{sign}</figcaption> : '' }
+</figure>
+
+<style>
+    .dz-quote--sidebar {
+        width: 100%;
+        background: var(--color-sidebar);
+        margin: 0px;
+    }
+
+    .dz-quote--sidebar h2 {
+        margin: 5px;
+    }
+
+    .dz-quote--sidebar blockquote {
+        margin: 0 5px;
+    }
+
+    .dz-quote--sidebar figcaption {
+        margin: 5px;
+    }
+
+    .dz-quote__text {
+        font-size: var(--font-size-base);
+        text-align: left;
+        padding-left: 10px
+    }
+
+    .dz-quote__sign {
+        font-size: var(--font-size-base);
+        font-style: italic;
+        text-align: right
+    }
+
+    blockquote {
+        margin-block-start: 0;
+        margin-block-end: 0;
+        margin-inline-start: 0;
+        margin-inline-end: 0;
+    }
+
+    figure {
+        margin-block-start: 0;
+        margin-inline-start: 0;
+        margin-inline-end: 0;
+    }
+
+    @media screen and (max-width: 672px) {
+        .dz-quote__text {
+            margin-block-start: 8px;
+            margin-block-end: 8px;
+        }
+
+        figure {
+            margin-block-end: 8px;
+        }
+    }
+</style>
