@@ -1,15 +1,18 @@
 ---
-export interface Props {
-    current: number;
+let netlifyPages = []
+try {
+    netlifyPages = await Astro.glob('../pages/_netlify_cms_content/*.md');
+} catch (err) {
+    console.error('Unable to retrieve Netlify CMS pages:', err);
 }
 
-const { current } = Astro.props as Props;
-
-const navItems = [
-    { label: "About", href: "/" },
-    { label: "Contact", href: "/contact" },
-];
-
+const navItems = netlifyPages.map(page => {
+    return {
+        label: page.frontmatter.title,
+        href: `/${page.frontmatter.slug}`
+    }
+});
+navItems.push({ label: "Contact", href: "/contact" })
 ---
 
 <nav class="dz-nav">
@@ -25,11 +28,21 @@ const navItems = [
         <span></span>
         <span></span>
         <ul class="dz-nav__list">
-            {navItems.map((item, ind) => <li><a class={current===ind ? `highlight` : '' }
-                    href={item.href}>{item.label}</a>
-            </li>)}
+            {navItems.map((item) => <li><a href={item.href}>{item.label}</a></li>)}
         </ul>
     </div>
+    <script>
+        const navItems = document.querySelectorAll('.dz-nav__list a')
+        const currentPageNavLink = Array.from(navItems).find(item => {
+            const normalize = path => path[path.length - 1] === '/' ? path : `${path}/`
+            let currPath = normalize(window.location.pathname)
+            let href = normalize(item.getAttribute('href'))
+            return href === currPath
+        })
+        if (currentPageNavLink) {
+            currentPageNavLink.classList.add('highlight')
+        }
+    </script>
 </nav>
 
 <style>

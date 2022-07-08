@@ -2,14 +2,27 @@
 import Nav from '../components/Nav.astro';
 import Title from '../components/Title.astro';
 import Layout from '../layouts/Layout.astro';
+
+let glob = []
+let aboutContent = ''
+try {
+	glob = await Astro.glob('../pages/_netlify_cms_content/about.md');
+} catch (err) {
+	console.error('Unable to retrieve about.md:', err);
+}
+
+if (glob) {
+	const aboutPage = glob[0]
+	aboutContent = aboutPage?.Content
+}
 ---
 
 <Layout title="About Natan">
-	<Nav current={0} />
+	<Nav />
 	<Title title="About Natan"></Title>
 	<main>
 		<div class="dz-main-container">
-			<p class="text"></p>
+			{ aboutContent }
 		</div>
 	</main>
 </Layout>
