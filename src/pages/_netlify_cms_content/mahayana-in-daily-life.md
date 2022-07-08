@@ -6,7 +6,6 @@ description: Teaching on Mahayana
 date: 2022-07-08T19:26:54.296Z
 thumbnail: /uploads/vajradhara.jpg
 ---
-
 The Buddha taught three baskets of teachings: Vinaya, Sutra and Abhidharma. I won't get into details here, but Google can help you here find further details. In the sutra section, he taught three wheels, or three turnings, as it is sometimes called: the Shravakayana, the Prajnaparamita and the Tathagatagarbha. Each of these turnings corresponds to a different set of baskets. The baskets are Vinaya, Sutra and Abhidharma. Each turning is meant to clarify what is merely implied in the earlier turning. The Vajrayana is part of the Abhidharma basket of the Tathagatagarbha Sutra turning and it's Vinaya basket varies based on Samaya provided in the tantra.
 
 The Tathagatagarbha Sutras introduce the Buddhanature, and innate potential for Buddhahood and what the full blossoming of that potential entails. The Vajrayana then gives extensive details about the Buddhanature and how it is activated and allowed to develop. This can be accomplished in one life, rather than many lives, as in Mahayana, because direct methods involving the human body are used, rather than indirect methods involving relationships with other beings.
@@ -22,3 +21,5 @@ What we will do is utilize the tools the Buddha, Dharma and Sangha have provided
 With the counsel of a teacher one can develop a very high level of experience with the Buddha's teachings without having to commit to an extensive practice schedule, without having to renounce the world in years long retreats, and without having to attend numerous lamas and empowerments. The historical precedents for my approach to teaching are well founded in the records in India, Nepal and Tibet. What I've come to is based on applying the traditional approaches to modern life and discovering which tools have the best impact in the lives of people whom I encounter.
 
 Practices to gain familiarity with Buddha activities include recitation of sutras, making various offerings, recitations of prayers, tantric visualizations, occasional rituals, introductions to direct perception of Buddhanature and ways to maintain that perception night and day thought all activities.
+
+.
