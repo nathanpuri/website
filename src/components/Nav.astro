@@ -1,7 +1,7 @@
 ---
 let netlifyPages = []
 try {
-    netlifyPages = await Astro.glob('../pages/_netlify_cms_content/*.md');
+    netlifyPages = await Astro.glob('../pages/*.md');
 } catch (err) {
     console.error('Unable to retrieve Netlify CMS pages:', err);
 }

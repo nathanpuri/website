@@ -11,7 +11,7 @@ editor:
 collections:
   - label: "Miscellaneous Pages"
     name: "misc"
-    folder: "/src/pages/_netlify_cms_content"
+    folder: "/src/pages"
     create: true
     fields: # The fields for each document, usually in front matter
       - {
