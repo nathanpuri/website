@@ -4,6 +4,7 @@ title: Teacher Bio
 slug: about
 date: 2022-07-08T20:44:32.637Z
 ---
+![](/uploads/img-20220704-wa0001.jpeg)
 
 My name is Natan. I've been studying and practicing Mahayana and Vajrayana since 2008. My principle teachers include lamas from Kagyu and Nyingma, although I've received empowerments from all lineages of Tibetan Buddhism and Taiwanese Mahayana and consider myself ecumenical.
 
