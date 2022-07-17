@@ -21,8 +21,13 @@ collections:
           default: "/src/layouts/netlify_cms.astro",
         }
       - { label: "Title", name: "title", widget: "string" }
-      - { label: Slug, name: slug, widget: string }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - {
+          label: Slug,
+          name: slug,
+          widget: string,
+          description: "This is the part of the URL which differentiates this page from other pages of the website, e.g. mahayana-in-daily-life. The convention is to use kebab-case.",
+        }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - {
           label: "Featured Image",
