@@ -3,9 +3,8 @@ layout: /src/layouts/netlify_cms.astro
 title: Teacher Bio
 slug: about
 date: 2022-07-08T20:44:32.637Z
+thumbnail: /uploads/img-20220704-wa0001.jpeg
 ---
-![]()
-
 My name is Natan. I've been studying and practicing Mahayana and Vajrayana since 2008. My principle teachers include lamas from Kagyu and Nyingma, although I've received empowerments from all lineages of Tibetan Buddhism and Taiwanese Mahayana and consider myself ecumenical.
 
 I earned a certificate in Mahamudra training from HH Kyabgon Chetsang Rinpoche in 2014. I had been teaching Mahamudra at Tze Zhan Monastery in San Francisco for five years. During this period I had learned from a well known Dzogchen scholar in France about a path of Dzogchen teachings higher than Nyingthig and Yangti known as mTha-Chen, meaning utter limit. It's related with the system of Dzogchen which is no longer in practice, known as pyiti, chiti and Yangti. I simply found this ancient way of approaching Dzogchen practice to make more sense and the way I personally experienced it. I had a well-known Dzogchen scholar in the USA translate the 21 Introductions of the Dzogchen tantras, which are a basic framework for the mTha-Chen.
