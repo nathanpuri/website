@@ -1,7 +1,7 @@
 ---
 layout: /src/layouts/netlify_cms.astro
 title: Kitchen sink Test
-slug: kitchen-sink_test
+slug: context-for-mahayana
 date: 2022-07-17T14:58:05.423Z
 ---
 ![Here is a picture](/uploads/img-20220704-wa0001.jpeg "Natan Puri")
