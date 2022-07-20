@@ -10,25 +10,22 @@ PRELIMINARIES
 
   Uncommon Preliminaries
 
--Refuge and Bodhichitta
+          -Refuge and Bodhichitta
 
 Seven Branch Prayer 
-Four Immeasurables 
-Guru
+Four Immeasurables - Loving Kindness
 
--Purification of Negative Karma
+          -Purification of Negative Karma & Accumulations of Merit and Wisdom
 
-Deity
-
--Accumulations of Merit and Wisdom
-
-Mahamudra 
-
-Atiyoga Path
-
-Body is deity, speech is mantra, action is Ganachakrapuja.
+Confession 
+Vajrasattva, Mandala, Four Empowerments 
+Guru, Deity, Completion, Mahamudra 
+  
+PATH
 
 Three statements of Garab Dorje integrated with mTha-Chen 
+Body is deity, speech is mantra, action is Ganachakrapuja
 
+DEDICATION 
 
-
+Dedication Bodhicitta 
