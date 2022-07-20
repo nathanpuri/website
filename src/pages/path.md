@@ -12,6 +12,8 @@ PRELIMINARIES
 
 -Refuge and Bodhichitta
 
+Seven Branch Prayer 
+Four Immeasurables 
 Guru
 
 -Purification of Negative Karma
