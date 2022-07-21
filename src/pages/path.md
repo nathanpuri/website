@@ -36,6 +36,12 @@ All compounded phenomena are impermanent. All happiness in samsara ends with suf
 
           -Refuge and Bodhichitta
 
+Gampopa...
+
+The Prajnaparamita is the sound and the syllable A, the pure unborn clear light is the dharmakaya. The continuous presence of luminous appearances is sambhogakaya. Their inseparability is the compassion of the nirmanakaya. We take refuge in our innate nature.
+
+All beings are only confused by a glitch which may fix itself given the right understanding to allow obstacles to liberate themselves in their own pure nature. Out of compassion we rest in the ultimate Bodhicitta of nondistraction.
+
                   Seven Branch Prayer 
        
           -Purification of Negative Karma & Accumulations of Merit and Wisdom
