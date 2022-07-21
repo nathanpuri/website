@@ -16,7 +16,8 @@ PRELIMINARIES
 
   Common Preliminaries 
 
-          - Four Thoughts that Turn the Mind Toward Dharma
+          - Four Thoughts that Turn the Mind
+
           - Integrating with the Result
 
   Uncommon Preliminaries
@@ -24,8 +25,7 @@ PRELIMINARIES
           -Refuge and Bodhichitta
 
                   Seven Branch Prayer 
-                  Four Immeasurables - Loving Kindness
-
+       
           -Purification of Negative Karma & Accumulations of Merit and Wisdom
 
                   Confession 
