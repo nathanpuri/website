@@ -9,7 +9,9 @@ The Buddha taught samsara in any of the six realms from hell-beings to meditatio
 "What are these four obstacles to the attainment of Buddhahood? Being attached to this life's activities, being attached to the pleasure of samsara, being attached to peace, and not understanding the
 method by which enlightenment is achieved." -Jewel Ornament of Liberation, by Gampopa
 
-"Birth is also a suffering, old age is also a suffering, sickness is also a suffering, death is also a suffering, separating from loved ones is also suffering, meeting with those who are not dear is also suffering, not finding what we desire is also suffering, and the pain of protecting what we already have is also suffering." -Entering the Womb Sutra
+"If one explained these three sufferings with their definitions, the all-pervasive suffering would be a neutral feeling, the suffering of change would be a feeling of pleasure, and the suffering ofsuffering would be a feeling of suffering." -Gampopa
+
+Birth is also a suffering, old age is also a suffering, sickness is also a suffering, death is also a suffering, separating from loved ones is also suffering, meeting with those who are not dear is also suffering, not finding what we desire is also suffering, and the pain of protecting what we already have is also suffering." -Entering the Womb Sutra
 
 The human body has special qualities no present in other sentient beings. If we follow a spiritual master who is like a guide through a dangerous wilderness, we can learn the method to wake up from ignorance into the glorious and joyous wonders of supreme unsurpassable Buddhahood, which is the wisdom of the Buddhanature and the teaching of Bodhichitta.
 
