@@ -8,6 +8,8 @@ PRELIMINARIES
 
 "In other lineages the main practice is considered profound, in our lineage the Preliminaries are profound." Lord Jigten Sumgon in Gongchig 
 
+"You must teach the preliminaries." Kyabje Taklung Tsetrul Rinpoche 
+
   Common Preliminaries 
 
           - Four Thoughts that Turn the Mind Toward Dharma
@@ -29,6 +31,8 @@ PRELIMINARIES
 MAIN PRACTICE 
 
           -Three statements of Garab Dorje integrated with mTha-Chen 
+"The cause of buddhahood comes by way of explanation by the precious guru." -Tantra without Syllables
+
           -Body is deity, speech is mantra, action is Ganachakrapuja
 
 DEDICATION 
