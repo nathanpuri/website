@@ -9,7 +9,8 @@ The Buddha taught samsara in any of the six realms from hell-beings to meditatio
 "What are these four obstacles to the attainment of Buddhahood? Being attached to this life's activities, being attached to the pleasure of samsara, being attached to peace, and not understanding the
 method by which enlightenment is achieved." -Jewel Ornament of Liberation, by Gampopa
 
-"If one explained these three sufferings with their definitions, the all-pervasive suffering would be a neutral feeling, the suffering of change would be a feeling of pleasure, and the suffering ofsuffering would be a feeling of suffering." -Gampopa
+"If one explained these three sufferings with their definitions, the all-pervasive suffering would be a neutral feeling, the suffering of change would be a feeling of pleasure, and the suffering of
+suffering would be a feeling of suffering." -Gampopa
 
 Birth is also a suffering, old age is also a suffering, sickness is also a suffering, death is also a suffering, separating from loved ones is also suffering, meeting with those who are not dear is also suffering, not finding what we desire is also suffering, and the pain of protecting what we already have is also suffering." -Entering the Womb Sutra
 
@@ -32,6 +33,8 @@ Contemplating the subject of impermanence remedies attachment to this life's act
 achieve enlightenment.        
 
   - Integrating with the Result
+
+All compounded phenomena are impermanent. All happiness in samsara ends with suffering. All our efforts and aims are never completed. All activities in life are futile and meaningless. Liberation means suffering shall never return. Oral teachings of the guru are the path to liberation. Nonconceptual nonmeditation is what is taught to be the ground from which all blissful Buddha qualities blossom.
 
   Uncommon Preliminaries
 
