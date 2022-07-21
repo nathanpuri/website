@@ -6,6 +6,8 @@ date: 2022-07-20T16:16:22.770Z
 ---
 PRELIMINARIES 
 
+"In other lineages the main practice is considered profound, in our lineage the Preliminaries are profound." Lord Jigten Sumgon in Gongchig 
+
   Common Preliminaries 
 
           - Four Thoughts that Turn the Mind Toward Dharma
