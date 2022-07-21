@@ -26,13 +26,9 @@ PRELIMINARIES
 
           - Four Thoughts that Turn the Mind
 
-Contemplating the subject of impermanence remedies attachment to this life's activities. Reflecting on the faults of samsara and on
- karma cause and its result remedies attachment to the pleasure of
- samsara. Meditating on loving-kindness and compassion remedies
- attachment to the pleasure of peace. Cultivating the supreme bodhicitta is the antidote for not understanding the method by which to
-achieve enlightenment.        
+Contemplating the subject of impermanence remedies attachment to this life's activities. Reflecting on the faults of samsara and on karma cause and its result remedies attachment to the pleasure of samsara. Meditating on loving-kindness and compassion remedies attachment to the pleasure of peace. Cultivating the supreme bodhicitta is the antidote for not understanding the method by which to achieve enlightenment.        
 
-  - Integrating with the Result
+          - Integrating with the Result
 
 All compounded phenomena are impermanent. All happiness in samsara ends with suffering. All our efforts and aims are never completed. All activities in life are futile and meaningless. Liberation means suffering shall never return. Oral teachings of the guru are the path to liberation. Nonconceptual nonmeditation is what is taught to be the ground from which all blissful Buddha qualities blossom.
 
