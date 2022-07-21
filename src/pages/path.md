@@ -19,7 +19,7 @@ PRELIMINARIES
 
 "In other lineages the main practice is considered profound, in our lineage the Preliminaries are profound." Lord Jigten Sumgon in Gongchig 
 
-"You must teach the preliminaries." Kyabje Taklung Tsetrul Rinpoche 
+"You must teach the preliminaries." Kyabje Taklung Tsetrul Rinpoche's exhortation to me
 
   Common Preliminaries 
 
