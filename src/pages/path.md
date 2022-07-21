@@ -18,7 +18,9 @@ PRELIMINARIES
 
           - Four Thoughts that Turn the Mind
 
-          - Integrating with the Result
+Contemplating the subject of impermanence remedies attachment to this life's activities. Reflecting on the faults of samsara and on karma cause and its result remedies attachment to the pleasure of samsara. Meditating on loving-kindness and compassion remedies attachment to the pleasure of peace. Cultivating the supreme bodhicitta is the antidote for not understanding the method by which toachieve enlightenment.        
+
+  - Integrating with the Result
 
   Uncommon Preliminaries
 
