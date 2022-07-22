@@ -62,8 +62,6 @@ We integrate all the oaths and paths into our daily life with all our actions of
 
 From time to time our doubts reemerge or we lose our clear perception. At that time we may utilize any one if the myriad methods within the vast tradition of the Mahayana and Vajrayana to refresh and deepen our understanding of the Buddha's intent and repair our confidence in our teachers and the precious lineages which have kept these blessings alive to this day.
 
-DEDICATION 
-
-         -Dedication Bodhicitta 
+DEDICATION BODHICHITTA 
 
 .At various times throughout the day when we will transfer our merit to all beings of samsara, to Buddhas, Bodhisattvas, Deities, Protectors and to the Ultimate Bodhichitta so that our practice will gain momentum enough actually to produce benefit to sentient beings.
