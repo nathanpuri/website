@@ -36,7 +36,13 @@ All compounded phenomena are impermanent. All happiness in samsara ends with suf
 
           -Refuge and Bodhichitta
 
-The essence of the cultivation of bodhicitta is the desire to achieve perfect, complete enlightenment for others' benefit. There are two classifications of primary characteristics: ultimate bodhicitta and relative bodhicitta. What is ultimate bodhicitta? It is pervading emptiness endowed with the essence of compassion, clear, unmoving, and free from elaboration. Relative bodhicitta vows to liberate all sentient beings from suffering through compassion. Ultimate bodhicitta is obtained through the realization of Dharmata while relative bodhicitta is obtained through ritual ceremony. There are two classifications of relative bodhicitta: aspiration bodhicitta and action bodhicitta. In brief, bodhicittaShould be understood to be of two types. The mind that aspires to awaken and the mind that ventures to do so.
+The essence of the cultivation of bodhicitta is the desire to
+ achieve perfect, complete enlightenment for others' benefit. There are two classifications of primary
+ characteristics: ultimate bodhicitta and relative bodhicitta. What is ultimate bodhicitta? It is pervading emptiness endowed
+ with the essence of compassion, clear, unmoving, and free from elaboration. Relative bodhicitta vows to liberate all sentient beings from suffering through compassion. Ultimate bodhicitta is obtained through the realization of Dharmata
+ while relative bodhicitta is obtained through ritual ceremony. There are two classifications of relative bodhicitta: aspiration bodhicitta and action bodhicitta. In brief, bodhicitta
+Should be understood to be of two types
+. The mind that aspires to awaken and the mind that ventures to do so.
 
 The Prajnaparamita is the sound and the syllable A, the pure unborn clear light is the dharmakaya. The continuous presence of luminous appearances is sambhogakaya. Their inseparability is the compassion of the nirmanakaya. We take refuge in our innate nature.
 
@@ -56,7 +62,7 @@ In the Atiyoga path the guru gives you instructions for you directly to encounte
 
           -Body is deity, speech is mantra, action is Ganachakrapuja
 
-We integrate all the oaths and paths into our daily life with all our actions of body, speech and mind, waking and sleeping, lying down, sitting up, standing, walking around, talking and serving the needs of sentient beings. We focus often on maintaining mindfulness throughout the day and especially at time of eating and drinking, because this is both a time to repair ourselves and to renew our vows of offering ourselves to dharma. We also focus on the time of sleep when we spend at least a third of our lives, which is an opportunity to overcome many deluded appearances.
+We integrate all the oaths and paths into our daily life with all our actions of body, speech and mind, waking and sleeping, lying down, sitting up, standing, walking around, talking and serving the needs of sentient beings. We focus often on maintaining mindfulness throughout the day and especially at time of eating and drinking, because this is both a time to repair ourselves and to renew our vows of offering ourselves to dharma. We also focus on the time of sleep when we spend at least a third of our lives, which is an opportunity to overcome many deluded appearances. And once again preliminary practices return to exhaust the obstacles of body, speech and mind and gently clarify our vision of dharmata until final buddhahood.
 
           -The Nine Vehicles and Four Classes of Tantra Are All Good
 
