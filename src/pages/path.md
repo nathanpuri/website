@@ -36,19 +36,16 @@ All compounded phenomena are impermanent. All happiness in samsara ends with suf
 
           -Refuge and Bodhichitta
 
-Gampopa...
+The essence of the cultivation of bodhicitta is the desire to achieve perfect, complete enlightenment for others' benefit. There are two classifications of primary characteristics: ultimate bodhicitta and relative bodhicitta. What is ultimate bodhicitta? It is pervading emptiness endowed with the essence of compassion, clear, unmoving, and free from elaboration. Relative bodhicitta vows to liberate all sentient beings from suffering through compassion. Ultimate bodhicitta is obtained through the realization of Dharmata while relative bodhicitta is obtained through ritual ceremony. There are two classifications of relative bodhicitta: aspiration bodhicitta and action bodhicitta. In brief, bodhicittaShould be understood to be of two types. The mind that aspires to awaken and the mind that ventures to do so.
 
 The Prajnaparamita is the sound and the syllable A, the pure unborn clear light is the dharmakaya. The continuous presence of luminous appearances is sambhogakaya. Their inseparability is the compassion of the nirmanakaya. We take refuge in our innate nature.
 
 All beings are only confused by a glitch which may fix itself given the right understanding to allow obstacles to liberate themselves in their own pure nature. Out of compassion we rest in the ultimate Bodhicitta of nondistraction.
 
                   Seven Branch Prayer 
-       
-          -Purification of Negative Karma & Accumulations of Merit and Wisdom
 
-                  Confession 
-                  Vajrasattva, Mandala, Four Empowerments 
-                  Guru, Deity, Completion, Mahamudra 
+To receive the teachings one must request them respectfully and with a pure heart. So initially and at the start of any practice we recite and perform the actions of the Seven Branches: Performing prostrations, making real and imagined offerings, going for refuge, making confession, rejoicing in the teacher's good qualities, requesting the teacher to turn the wheel of dharma and teach, beseeching the teacher to remain and not attain parinirvana, and the dedication of merit to all sentient beings.
+
   
 MAIN PRACTICE 
 
@@ -56,6 +53,8 @@ MAIN PRACTICE
 "The cause of buddhahood comes by way of explanation by the precious guru." -Tantra without Syllables
 
           -Body is deity, speech is mantra, action is Ganachakrapuja
+
+          -The Nine Vehicles and Four Classes of Tantra Are All Good
 
 DEDICATION 
 
