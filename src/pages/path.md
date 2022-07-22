@@ -49,13 +49,21 @@ To receive the teachings one must request them respectfully and with a pure hear
   
 MAIN PRACTICE 
 
-          -Three statements of Garab Dorje integrated with mTha-Chen 
+          -Three statements of Garab Dorje
 "The cause of buddhahood comes by way of explanation by the precious guru." -Tantra without Syllables
+
+In the Atiyoga path the guru gives you instructions for you directly to encounter perceptual evidence of your innately present Buddhanature so that you may confirm it to yourself and remain in its presence 24/7. You are given demonstrations and tasks that allow your Buddhanature to blossom like a seedling sprouts and blossoms into full flower. A flower then again multiplies seeds and those seeds make new flowers. This is the analogy I wish will serve to help you understand how you too will all be gurus and Buddhas and this precious teaching will carry on into the distant future 
 
           -Body is deity, speech is mantra, action is Ganachakrapuja
 
+We integrate all the oaths and paths into our daily life with all our actions of body, speech and mind, waking and sleeping, lying down, sitting up, standing, walking around, talking and serving the needs of sentient beings. We focus often on maintaining mindfulness throughout the day and especially at time of eating and drinking, because this is both a time to repair ourselves and to renew our vows of offering ourselves to dharma. We also focus on the time of sleep when we spend at least a third of our lives, which is an opportunity to overcome many deluded appearances.
+
           -The Nine Vehicles and Four Classes of Tantra Are All Good
+
+From time to time our doubts reemerge or we lose our clear perception. At that time we may utilize any one if the myriad methods within the vast tradition of the Mahayana and Vajrayana to refresh and deepen our understanding of the Buddha's intent and repair our confidence in our teachers and the precious lineages which have kept these blessings alive to this day.
 
 DEDICATION 
 
          -Dedication Bodhicitta 
+
+.At various times throughout the day when we will transfer our merit to all beings of samsara, to Buddhas, Bodhisattvas, Deities, Protectors and to the Ultimate Bodhichitta so that our practice will gain momentum enough actually to produce benefit to sentient beings.
