@@ -52,6 +52,12 @@ All beings are only confused by a glitch which may fix itself given the right un
 
 To receive the teachings one must request them respectfully and with a pure heart. So initially and at the start of any practice we recite and perform the actions of the Seven Branches: Performing prostrations, making real and imagined offerings, going for refuge, making confession, rejoicing in the teacher's good qualities, requesting the teacher to turn the wheel of dharma and teach, beseeching the teacher to remain and not attain parinirvana, and the dedication of merit to all sentient beings.
 
+                  The Role of Faith
+
+Some aspects of the path and result of Buddhahood are beyond reason and difficult to experience first hand. Buddha explained we must begin with faith. It's not blind faith. We will put the teachings to the test. It is the kind of trusting faith that you afford your professor on the first day of class, that the professor has such knowledge which you do not have and can impart it to you. 
+
+Thus, we.must habe faith in the Three Jewels: The Buddha, Dharma and Sangha, as well as in karma and it's result, the transfer of merit, the samadhis, rebirth in the six realms.of samsara, in the psychic faculties of the noble beings and in the possibility of attaining Buddhahood. The Buddha states specifically that faith in Mahayana is essential to attaining the fruit of practice. The methods will bear out concrete experiences beyond faith but initially we must have confidence and trust that those who came.before us on the path are being honest about it.
+
   
 MAIN PRACTICE 
 
