@@ -3,6 +3,7 @@ layout: /src/layouts/netlify_cms.astro
 title: The Path
 slug: "path "
 date: 2022-07-20T16:16:22.770Z
+thumbnail: /uploads/rainbowsamantabadra.png
 ---
 The Buddha taught samsara in any of the six realms from hell-beings to meditation gods is impermanent, is pointless and is sufferings of endless rebirth, old-age sickness and death. He taught cause and effect or karmaphala of suffering is the natural law. He taught interdependent origination is emptiness, that the cause of suffering may be removed. He taught Buddha activities are in the Buddhanature which is the basis of sa.sara and nirvana. Thus, taught the path. Not knowing and/or having no faith in these points is supreme ignorance for which the only possible result is constant misery.
 
