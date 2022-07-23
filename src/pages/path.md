@@ -69,7 +69,9 @@ In the Atiyoga path the guru gives you instructions for you directly to encounte
 
           -Body is deity, speech is mantra, action is Ganachakrapuja
 
-We integrate all the oaths and paths into our daily life with all our actions of body, speech and mind, waking and sleeping, lying down, sitting up, standing, walking around, talking and serving the needs of sentient beings. We focus often on maintaining mindfulness throughout the day and especially at time of eating and drinking, because this is both a time to repair ourselves and to renew our vows of offering ourselves to dharma. We also focus on the time of sleep when we spend at least a third of our lives, which is an opportunity to overcome many deluded appearances. And once again preliminary practices return to exhaust the obstacles of body, speech and mind and gently clarify our vision of dharmata until final buddhahood.
+We integrate all the oaths and paths into our daily life with all our actions of body, speech and mind, waking and sleeping, lying down, sitting up, standing, walking around, talking and serving the needs of sentient beings. We focus often on maintaining mindfulness throughout the day and especially at time of eating and drinking, because this is both a time to repair ourselves and to renew our vows of offering ourselves to dharma. We also focus on the time of sleep when we spend at least a third of our lives, which is an opportunity to overcome many deluded appearances. 
+
+And once again preliminary practices return to exhaust the obstacles of body, speech and mind and gently clarify our vision of dharmata until final buddhahood. There is the preliminary of physical Asana or mudra with symbolic visualizations, the preliminary of mantra recitation and symbolic visualization, as well as the preliminary of deep examination of the mind, among others.
 
           -The Nine Vehicles and Four Classes of Tantra Are All Good
 
