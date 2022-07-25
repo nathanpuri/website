@@ -37,13 +37,7 @@ All compounded phenomena are impermanent. All happiness in samsara ends with suf
 
           -Refuge and Bodhichitta
 
-The essence of the cultivation of bodhicitta is the desire to
- achieve perfect, complete enlightenment for others' benefit. There are two classifications of primary
- characteristics: ultimate bodhicitta and relative bodhicitta. What is ultimate bodhicitta? It is pervading emptiness endowed
- with the essence of compassion, clear, unmoving, and free from elaboration. Relative bodhicitta vows to liberate all sentient beings from suffering through compassion. Ultimate bodhicitta is obtained through the realization of Dharmata
- while relative bodhicitta is obtained through ritual ceremony. There are two classifications of relative bodhicitta: aspiration bodhicitta and action bodhicitta. In brief, bodhicitta
-Should be understood to be of two types
-. The mind that aspires to awaken and the mind that ventures to do so.
+The essence of the cultivation of bodhicitta is the desire to achieve perfect, complete enlightenment for others' benefit. There are two classifications of primary characteristics: ultimate bodhicitta and relative bodhicitta. What is ultimate bodhicitta? It is pervading emptiness endowed with the essence of compassion, clear, unmoving, and free from elaboration. Relative bodhicitta vows to liberate all sentient beings from suffering through compassion. Ultimate bodhicitta is obtained through the realization of Dharmatawhile relative bodhicitta is obtained through ritual ceremony. There are two classifications of relative bodhicitta: aspiration bodhicitta and action bodhicitta. In brief, bodhicitta should be understood to be of two types, The mind that aspires to awaken and the mind that ventures to do so.
 
 The Prajnaparamita is the sound and the syllable A, the pure unborn clear light is the dharmakaya. The continuous presence of luminous appearances is sambhogakaya. Their inseparability is the compassion of the nirmanakaya. We take refuge in our innate nature.
 
@@ -58,7 +52,6 @@ To receive the teachings one must request them respectfully and with a pure hear
 Some aspects of the path and result of Buddhahood are beyond reason and difficult to experience first hand. Buddha explained we must begin with faith. It's not blind faith. We will put the teachings to the test. It is the kind of trusting faith that you afford your professor on the first day of class, that the professor has such knowledge which you do not have and can impart it to you. 
 
 Thus, we.must habe faith in the Three Jewels: The Buddha, Dharma and Sangha, as well as in karma and it's result, the transfer of merit, the samadhis, rebirth in the six realms.of samsara, in the psychic faculties of the noble beings and in the possibility of attaining Buddhahood. The Buddha states specifically that faith in Mahayana is essential to attaining the fruit of practice. The methods will bear out concrete experiences beyond faith but initially we must have confidence and trust that those who came.before us on the path are being honest about it.
-
   
 MAIN PRACTICE 
 
@@ -76,6 +69,8 @@ And once again preliminary practices return to exhaust the obstacles of body, sp
           -The Nine Vehicles and Four Classes of Tantra Are All Good
 
 From time to time our doubts reemerge or we lose our clear perception. At that time we may utilize any one if the myriad methods within the vast tradition of the Mahayana and Vajrayana to refresh and deepen our understanding of the Buddha's intent and repair our confidence in our teachers and the precious lineages which have kept these blessings alive to this day.
+
+The supplemental methods I favor to instill confidence include Co-Emergent Mahamudra, Guhyagarbha, Five-Fold Path Mahamudra, Shitro and Yangti dark retreat.
 
 DEDICATION BODHICHITTA 
 
