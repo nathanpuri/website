@@ -70,7 +70,7 @@ And once again preliminary practices return to exhaust the obstacles of body, sp
 
 From time to time our doubts reemerge or we lose our clear perception. At that time we may utilize any one if the myriad methods within the vast tradition of the Mahayana and Vajrayana to refresh and deepen our understanding of the Buddha's intent and repair our confidence in our teachers and the precious lineages which have kept these blessings alive to this day.
 
-The supplemental methods I favor to instill confidence include Co-Emergent Mahamudra, Guhyagarbha, Five-Fold Path Mahamudra, Shitro and Yangti dark retreat.
+The supplemental methods I favor to instill confidence include Co-Emergent Mahamudra, Guhyagarbha, Five-Fold Path Mahamudra, Shitro, some Ḍākinī methods and Yangti dark retreat. Some of these are exceptions to the general principle that one must receive a formal empowerment prior to entering the path. Thus, these are more accessible to an on-line community.
 
 DEDICATION BODHICHITTA 
 
