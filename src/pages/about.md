@@ -21,4 +21,4 @@ What we are hovering over to land upon is a practical approach to dharma that wi
 
 Please read more on the teachings to learn more about the teaching approach.
 
-PS According to the Rig Veda, the Puri clan are direct descendants of the god Brahma. I'm not one to put meaning on such claims, but I see that touted by followers of Tibetan lamas, they descend from holy beings. But they can't do better than a grandson of Brahma, especially when the the major and minor marks or Buddha are the marks of a Brahma. I descend from the gods! And get really pouty when my blood sugar is low.
+PS According to the Rig Veda, the Puri clan are direct descendants of the god Brahma. I'm not one to put meaning on such claims, but I see that touted by followers of Tibetan lamas, they descend from holy beings. But they can't do better than a grandson of Brahma, especially when the the major and minor marks or Buddha are the marks of a Brahma. I descend from the gods! And get really pouty when my blood sugar is low. I also descend from Genghis Khan, along with 200,000,000 other Asians. So there's that.
