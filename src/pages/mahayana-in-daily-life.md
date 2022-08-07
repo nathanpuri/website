@@ -21,7 +21,7 @@ What we will do is utilize the tools the Buddha, Dharma and Sangha have provided
 
 With the counsel of a teacher one can develop a very high level of experience with the Buddha's teachings without having to commit to an extensive practice schedule, without having to renounce the world in years long retreats, and without having to attend numerous lamas and empowerments. The historical precedents for my approach to teaching are well founded in the records in India, Nepal and Tibet. What I've come to is based on applying the traditional approaches to modern life and discovering which tools have the best impact in the lives of people whom I encounter.
 
-Practices to gain familiarity with Buddha activities include recitation of sutras, making various offerings, recitations of prayers, tantric visualizations, occasional rituals, introductions to direct perception of Buddhanature and ways to maintain that perception night and day thought all activities.
+Practices to gain familiarity with Buddha activities include recitation of sutras, making various offerings, recitations of prayers, tantric visualizations, occasional rituals, introductions to direct perception of Buddhanature and ways to maintain that perception night and day throughout all activities.
 
 
 Ii.
