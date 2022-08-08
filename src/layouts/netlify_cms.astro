@@ -1,6 +1,7 @@
 ---
 import Nav from '../components/Nav.astro';
 import Title from '../components/Title.astro';
+
 export interface Props {
     content: any;
 }
@@ -25,7 +26,7 @@ const { title, thumbnail } = content
 
 <body>
     <div class="dz-container">
-        <a class="dz-banner-img__link" href="/" alt="Home">
+        <a class="dz-banner-img__link" href="/" title="Home">
             <div class="dz-banner">
                 <h1>Guru Natan</h1>
                 <img class="dz-banner-img" src="/symbol.png" alt="Hum symbol" />
@@ -137,13 +138,17 @@ const { title, thumbnail } = content
     }
 
     :global(.dz-main-container) {
-        display: block;
+        display: inline-block;
         margin: 0 10px;
     }
 
     :global(.dz-main-container p) {
         text-align: justify;
         width: 100%;
+    }
+
+    :global(.dz-main-container p:first-of-type) {
+        margin-block-start: 0;
     }
 
     :global(.dz-row-wrapper) {
