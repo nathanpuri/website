@@ -3,6 +3,7 @@ layout: /src/layouts/netlify_cms.astro
 title: Why Mahayana? The context
 slug: mahayana-context
 date: 2022-07-17T19:57:33.202Z
+thumbnail: /uploads/screenshot_20220730-185623-201.png
 ---
 It is vitally important to understand why this guy Gotama bothered to get involved with dharma in the first place. The context for all dharma teaching is the cycle of death and rebirth, sometimes called cyclic existence or samsara in Sanskrit.
 
