@@ -22,7 +22,7 @@ const { title } = Astro.props as Props;
 
 <body>
   <div class="dz-container">
-    <a class="dz-banner-img__link" href="/" alt="Home">
+    <a class="dz-banner-img__link" href="/" title="Homepage">
       <div class="dz-banner">
         <h1>Guru Natan</h1>
         <img class="dz-banner-img" src="/symbol.png" alt="Hum symbol" />
@@ -34,7 +34,7 @@ const { title } = Astro.props as Props;
 </body>
 <script>
   const currYear = new Date().getFullYear()
-  const footerText = `&copy; Natan Puri ${currYear}`
+  const footerText = `&copy; Guru Natan ${currYear}`
 
   const footerEl = document.querySelector('.dz-footer')
   footerEl.innerHTML = footerText
