@@ -3,7 +3,7 @@ layout: /src/layouts/netlify_cms.astro
 title: Teacher Bio
 slug: about
 date: 2022-07-08T20:44:32.637Z
-thumbnail: /uploads/img_20220608_150749_742.jpg
+thumbnail: /uploads/screenshot_20220730-185601-893.png
 ---
 My name is Nathan Puri. I was born in South Eastern Oregon in the high desert, but spent most of my youth and education in Northern California. I started going by Natan when I moved to Brazil because that's how they spell and pronounce it and so it's easier.
 
