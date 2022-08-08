@@ -5,7 +5,9 @@ slug: about
 date: 2022-07-08T20:44:32.637Z
 thumbnail: /uploads/img_20220608_150749_742.jpg
 ---
-My name is Natan. I've been studying and practicing Mahayana and Vajrayana since 2008. My principle teachers include lamas from Kagyu and Nyingma, although I've received empowerments from all lineages of Tibetan Buddhism and Taiwanese Mahayana and consider myself ecumenical.
+My name is Nathan Puri. I was born in South Eastern Oregon in the high desert, but spent most of my youth and education in Northern California. I started going by Natan when I moved to Brazil because that's how they spell and pronounce it and so it's easier.
+
+ I've been studying and practicing Mahayana and Vajrayana since 2008. My principle teachers include lamas from Kagyu and Nyingma, although I've received empowerments from all lineages of Tibetan Buddhism and Taiwanese Mahayana and consider myself ecumenical.
 
 In my childhood I was greatly influenced by my granduncle who was a lifelong yogi who studied in Benares. In university I was greatly influenced by the study of metaphysics, aesthetics, poetics and semiotics. These early experiences strongly informed my study and experience of the Vajrayana.
 
