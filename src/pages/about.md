@@ -9,7 +9,7 @@ gurunatan74@gmail.com
 
 https://www.facebook.com/profile.php?id=100077414182060
 
-My name is Nathan Puri. I was born in South Eastern Oregon in the high desert, but spent most of my youth and education in Northern California near amount Shasta. My father was an immigrant from India. My mother's family immigrated from the Alsace 170 years ago. I started going by Natan when I moved to Brazil because that's how they spell and pronounce it and so it's easier. 
+My name is Nathan. I was born in South Eastern Oregon in the high desert, but spent most of my youth and education in Northern California near amount Shasta. My father was an immigrant from India from the Puru clan mentioned in the Rig Veda. My mother's family immigrated from the Alsace 170 years ago. I started going by Natan when I moved to Brazil because that's how they spell and pronounce it and so it's easier. 
 
 In my childhood I was greatly influenced by my granduncle who was a lifelong yogi educated in Benares during the British Raj and trained me in yoga and Sanskrit. Also as a child I began having what I later learned were the visions of Dzogchen and remembered Guru Padmasambhava's mantra without having been taught it. At university I was greatly influenced by the study of metaphysics, aesthetics, poetics and semiotics in the Philosophy department. These early experiences strongly informed my study and experience of the Vajrayana.
 
@@ -29,5 +29,3 @@ I want to pay special homage to my Lama Drubpon Gonpo Dorje Rinpoche and my dhar
  She entered tukdam this year 2022 for eight days and all the signs of her complete realization of Mahamudra appeared with our lama by her side practicing and giving final instructions. It's a great testament the path of guru devotion.
 
 Please read more on the teachings to learn more about the teaching approach.
-
-PS A funny aside... According to the Rig Veda, the Puri clan are direct descendants of the god Brahma. I'm not one to put meaning on such claims, but I see that touted by followers of Tibetan lamas, that they descend from holy beings. But they can't do better than a grandson of Brahma, especially when the the major and minor marks of Buddha are the marks of a Brahma. I descend from the gods! And get really pouty when my blood sugar is low. I also descend from Genghis Khan, along with 200,000,000 other Asians. So there's that. Then we will burn the villages and towns of King Mara, bring them under the rule of Buddha Khan!  Follow Nathan of House Buddhanatheon! Who's with me?!
