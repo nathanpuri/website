@@ -1,6 +1,6 @@
 ---
 layout: /src/layouts/netlify_cms.astro
-title: "Puja Service and Divination "
+title: "Puja, End of Life Service and Divination "
 slug: puja
 date: 2022-08-19T09:43:31.931Z
 thumbnail: /uploads/tibetan_mahakala-56a0c5663df78cafdaa4dfe6.jpg
