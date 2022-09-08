@@ -5,7 +5,7 @@ slug: teachings
 date: 2022-07-22T16:03:49.254Z
 thumbnail: /uploads/img_20220731_101048_238.jpg
 ---
-Atiyoga in Daily Life: September 8, 2022, 8 p.m. Brazilian, Livestream 
+Atiyoga in Daily Life: September 9, 2022, 5 p.m. Brazilian, Livestream 
 https://m.facebook.com/events/376225971217089
 
 Emancipation from Suffering: Become a Buddha and Live the Mahasiddha Lifestyle
