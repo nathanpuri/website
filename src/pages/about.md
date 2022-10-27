@@ -9,7 +9,7 @@ gurunatan74@gmail.com
 
 https://www.facebook.com/profile.php?id=100077414182060
 
-Natan has been studying and practicing Mahayana and Vajrayana since 2008. His principle teachers include lamas from Kagyu and Nyingma, although he's received empowerments and teachings from all lineages of Tibetan Buddhism and Taiwanese Mahayana and considers myself ecumenical. He has many refuge names: Konchok Ösel Rigpa'i Dorje, Kunzang Dondrubpa, and others. His granduncle raised him in the style of an Indian guru. Thus he uses the word guru not lama. 
+Natan was trained in yoga and Sanskrit beginning when he was 6 years old by this grandfather from Benares, India. He's been studying and practicing Mahayana and Vajrayana since 2008. His principle teachers include lamas from Kagyu and Nyingma, although he's received empowerments and teachings from all lineages of Tibetan Buddhism and Taiwanese Mahayana and considers myself ecumenical. He has many refuge names: Konchok Ösel Rigpa'i Dorje, Kunzang Dondrubpa, and others. His granduncle raised him in the style of an Indian guru. Thus he uses the word guru not lama. 
 
 Natan earned a certificate in Mahamudra training from HH Kyabgon Chetsang Rinpoche in 2014 and had been teaching Mahamudra at Tze Zhan Monastery in San Francisco for five years. During this period he received extensive Atiyoga teachings from several lamas including Namkhai Norbu Rinpoche and completed several three roots, togal and yangti retreats.
  
