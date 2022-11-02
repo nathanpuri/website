@@ -41,7 +41,7 @@ i18next.changeLanguage(lang as string);
 
 <body>
     <div class="dz-container">
-        <a class="dz-banner-img__link" href="/" alt="Home">
+        <a class="dz-banner-img__link" href="/" title="Home">
             <div class="dz-banner">
                 <h1>Guru Natan</h1>
                 <img class="dz-banner-img" src="/symbol.png" alt="Hum symbol" />
@@ -61,7 +61,7 @@ i18next.changeLanguage(lang as string);
 </body>
 <script>
     const currYear = new Date().getFullYear()
-    const footerText = `&copy; Natan Puri ${currYear}`
+    const footerText = `&copy; Guru Natan ${currYear}`
 
     const footerEl = document.querySelector('.dz-footer')
     footerEl.innerHTML = footerText
@@ -154,7 +154,7 @@ i18next.changeLanguage(lang as string);
     }
 
     :global(.dz-main-container) {
-        display: block;
+        display: inline-block;
         margin: 0 10px;
     }
 
@@ -163,12 +163,16 @@ i18next.changeLanguage(lang as string);
         width: 100%;
     }
 
+    :global(.dz-main-container p:first-of-type) {
+        margin-block-start: 0;
+    }
+
     :global(.dz-row-wrapper) {
         display: flex;
         flex-direction: row;
     }
 
-    :global(.dz-image) {
+    :global(.dz-main-container p img, .dz-image) {
         height: 100%;
         max-height: 30vh;
         float: right;

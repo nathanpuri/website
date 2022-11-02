@@ -115,6 +115,13 @@ import Layout from '../layouts/Layout.astro';
         font-size: var(--font-size-base);
     }
 
+    @media screen and (min-width: 672px) {
+        .dz-sidebar {
+            width: 45%;
+            margin: 1rem auto;
+        }
+    }
+
     @media screen and (max-width: 672px) {
         main {
             flex-flow: column nowrap;
