@@ -14,3 +14,8 @@ All commands are run from the root of the project, from a terminal:
 | :-------------- | :------------------------------------------ |
 | `npm run dev`   | Starts local dev server at `localhost:3000` |
 | `npm run build` | Build your production site to `./dist/`     |
+
+## Login to Netlify CMS while developing locally
+
+1. Open `http://localhost:3000/admin/index.html` in a browser.
+1. Set site URL to `https://gurunatan.org`.
