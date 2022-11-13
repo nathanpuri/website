@@ -29,3 +29,8 @@ All commands are run from the root of the project, from a terminal:
 
 - netlify_cms.astro: used by markdown pages created by Netlify-CMS
 - Layout.astro: used by non-Netlify-CMS-created pages
+
+## Known issues with Netlify CMS
+
+- Enabling i18n, then adding a translation to an existing page does not include the hidden layout field in the markdown output.
+  - Each page must be recreated with translations.
