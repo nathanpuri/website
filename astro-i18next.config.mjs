@@ -10,12 +10,22 @@ export default {
   showDefaultLocale: true,
   routes: {
     en: {
+      about: 'about',
       contact: 'contact',
+      ['mahayana-context']: 'mahayana-context',
+      ['mahayana-in-daily-life']: 'mahayana-in-daily-life',
+      path: 'path',
       submit_success: 'submit_success',
+      teachings: 'teachings',
     },
     pt: {
+      about: 'cerca-de',
       contact: 'contato',
+      ['mahayana-context']: 'contexto-mahayana',
+      ['mahayana-in-daily-life']: 'mahayana-na-vida-cotidiana',
+      path: 'caminho',
       submit_success: 'enviar_sucesso',
+      teachings: 'ensinamentos',
     },
   },
 }
