@@ -1,0 +1,97 @@
+---
+import i18next from "i18next";
+import { localizePath } from "astro-i18next";
+import localeEmoji from "locale-emoji";
+import ISO6991 from "iso-639-1";
+
+export interface Props extends astroHTML.JSX.SelectHTMLAttributes {
+  showFlag?: boolean;
+}
+
+const supportedLanguages = i18next.languages;
+const currentLanguage = i18next.language;
+
+const { pathname } = Astro.url;
+const { showFlag = false, ...attributes } = Astro.props;
+
+const lngs = supportedLanguages as [];
+// ensure the current selection matches the page's language
+const sortedLngs = lngs.sort((a) => {
+  return a === currentLanguage ? -1 : 1;
+});
+---
+
+<script>
+  const LS_SELECTED_LOCATION_ID = "selectedLocation";
+
+  function restoreSavedSelection() {
+    const savedSelection = localStorage.getItem(LS_SELECTED_LOCATION_ID);
+
+    if (savedSelection) {
+      // remove the default selection
+      const currSelected = document.querySelector(
+        "#language-selector > option[selected]"
+      );
+
+      if (currSelected) {
+        currSelected.removeAttribute("selected");
+      }
+
+      // set the saved selection chosen by the user
+      const actualSelected = document.querySelector(
+        `#language-selector > option[value="${savedSelection}"]`
+      );
+
+      if (actualSelected) {
+        actualSelected.setAttribute("selected", "");
+      }
+    }
+  }
+
+  const onSelectChangeHandler = (ev) => {
+    const val = ev?.target?.value;
+
+    if (val) {
+      localStorage.setItem(LS_SELECTED_LOCATION_ID, val);
+      window.location = val;
+    }
+  };
+
+  restoreSavedSelection();
+
+  document
+    .getElementById("language-selector")
+    .addEventListener("change", onSelectChangeHandler);
+</script>
+
+<select {...attributes} id="language-selector">
+  {
+    sortedLngs.map((supportedLanguage: string) => {
+      let value = localizePath(pathname, supportedLanguage);
+      const flag = showFlag ? localeEmoji(supportedLanguage) + " " : "";
+      const nativeName = ISO6991.getNativeName(supportedLanguage);
+      const label = flag + nativeName;
+      return (
+        <option value={value} selected={supportedLanguage === currentLanguage}>
+          {label}
+        </option>
+      );
+    })
+  }
+</select>
+
+<style>
+  @media screen and (min-width: 672px) {
+    select {
+      position: absolute;
+      top: 0;
+      margin: 16px 16px 0 0;
+    }
+  }
+
+  @media screen and (max-width: 672px) {
+    select {
+      margin: 16px 0 0 16px;
+    }
+  }
+</style>
