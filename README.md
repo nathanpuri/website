@@ -19,3 +19,13 @@ All commands are run from the root of the project, from a terminal:
 
 1. Open `http://localhost:3000/admin/index.html` in a browser.
 1. Set site URL to `https://gurunatan.org`.
+
+## Use local Netlify CMS backend during development
+
+1. Add top-level `local_backend: true` config setting.
+1. Run npx netlify-cms-proxy-server from the root directory.
+
+## Layouts
+
+- netlify_cms.astro: used by markdown pages created by Netlify-CMS
+- Layout.astro: used by non-Netlify-CMS-created pages
