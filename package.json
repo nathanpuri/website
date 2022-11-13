@@ -12,8 +12,7 @@
     "astro": "~1.6.2"
   },
   "dependencies": {
-    "astro-i18next": "1.0.0-beta.12",
-    "i18next": "^21.8.13",
-    "i18next-fs-backend": "^1.1.4"
+    "astro-i18next": "1.0.0-beta.13",
+    "i18next": "^22.0.5"
   }
 }
