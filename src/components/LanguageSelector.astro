@@ -1,56 +1,86 @@
 ---
 import i18next from "i18next";
 import { localizePath } from "astro-i18next";
-import localeEmoji from "locale-emoji";
 import ISO6991 from "iso-639-1";
-
-export interface Props extends astroHTML.JSX.SelectHTMLAttributes {
-  showFlag?: boolean;
-}
 
 const supportedLanguages = i18next.languages;
 const currentLanguage = i18next.language;
 
 const { pathname } = Astro.url;
-const { showFlag = false, ...attributes } = Astro.props;
 
 const lngs = supportedLanguages as [];
 // ensure the current selection matches the page's language
 const sortedLngs = lngs.sort((a) => {
   return a === currentLanguage ? -1 : 1;
 });
+
+const { ...attributes } = Astro.props;
 ---
 
+<script define:vars={{ supportedLanguages }}>
+  window["supportedLanguages"] = supportedLanguages;
+</script>
 <script>
-  const LS_SELECTED_LOCATION_ID = "selectedLocation";
+  const LS_SELECTED_LOCALE = "selectedLocale";
 
-  function restoreSavedSelection() {
-    const savedSelection = localStorage.getItem(LS_SELECTED_LOCATION_ID);
+  function getBrowserLocales() {
+    const browserLocales =
+      navigator.languages === undefined
+        ? [navigator.language]
+        : navigator.languages;
+
+    if (!browserLocales) {
+      return undefined;
+    }
+
+    return browserLocales.map((locale) => {
+      const trimmedLocale = locale.trim();
+
+      return trimmedLocale.split(/-|_/)[0];
+    });
+  }
+
+  function getDefaultSelection() {
+    const savedLocale = localStorage.getItem(LS_SELECTED_LOCALE);
 
     // remove the default selection
     const currSelected = document.querySelector(
       "#language-selector > option[selected]"
     );
 
-    if (savedSelection) {
+    // set the saved selection chosen by the user
+    const options = document.querySelectorAll("#language-selector > option");
+    let actualSelected = null;
+
+    for (let i = 0; i < options.length; i++) {
+      const option = options[i];
+      const optionVal = option.value;
+      const localeSubstr = optionVal.substring(1, 3);
+
+      if (localeSubstr.includes(savedLocale)) {
+        actualSelected = option;
+      }
+    }
+
+    if (savedLocale && actualSelected) {
       if (currSelected) {
         currSelected.removeAttribute("selected");
       }
 
-      // set the saved selection chosen by the user
-      const actualSelected = document.querySelector(
-        `#language-selector > option[value="${savedSelection}"]`
-      );
-
       if (actualSelected) {
         actualSelected.setAttribute("selected", "");
       }
-    } else if (currSelected) {
-      const val = currSelected.value;
+      // ensure default selection is saved
+    } else {
+      const locales = getBrowserLocales();
 
-      if (val) {
-        // save current selection so this can be restored
-        localStorage.setItem(LS_SELECTED_LOCATION_ID, val);
+      if (locales.length > 0) {
+        const locale = locales[0];
+
+        if (window["supportedLanguages"]?.includes(locale)) {
+          // save current selection so this can be restored
+          localStorage.setItem(LS_SELECTED_LOCALE, locale);
+        }
       }
     }
   }
@@ -59,12 +89,13 @@ const sortedLngs = lngs.sort((a) => {
     const val = ev?.target?.value;
 
     if (val) {
-      localStorage.setItem(LS_SELECTED_LOCATION_ID, val);
+      const locale = val.match(/\/(\w{2})\/.+/)[1];
+      localStorage.setItem(LS_SELECTED_LOCALE, locale);
       window.location = val;
     }
   };
 
-  restoreSavedSelection();
+  getDefaultSelection();
 
   document
     .getElementById("language-selector")
@@ -75,9 +106,8 @@ const sortedLngs = lngs.sort((a) => {
   {
     sortedLngs.map((supportedLanguage: string) => {
       let value = localizePath(pathname, supportedLanguage);
-      const flag = showFlag ? localeEmoji(supportedLanguage) + " " : "";
       const nativeName = ISO6991.getNativeName(supportedLanguage);
-      const label = flag + nativeName;
+      const label = nativeName;
       return (
         <option value={value} selected={supportedLanguage === currentLanguage}>
           {label}
