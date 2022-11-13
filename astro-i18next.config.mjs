@@ -1,12 +1,21 @@
 export default {
-  defaultLanguage: 'en',
-  supportedLanguages: ['en', 'pt'],
-  i18next: {
-    debug: true, // convenient during development to check for missing keys
-    initImmediate: false,
-    backend: {
-      loadPath: './src/locales/{{lng}}.json',
+  defaultLocale: 'en',
+  locales: ['en', 'pt'],
+  /**
+   * Netlify CMS saves new markdown files to pages/en/ & pages/pt/ directories.
+   * And the Nav component loads from these directories when generating paths.
+   * So adding the locale prefix for the default locale, which this setting
+   * enables, ensures navbar links work correctly.
+   */
+  showDefaultLocale: true,
+  routes: {
+    en: {
+      contact: 'contact',
+      submit_success: 'submit_success',
     },
-    i18nextPlugins: { fsBackend: 'i18next-fs-backend' },
+    pt: {
+      contact: 'contato',
+      submit_success: 'enviar_sucesso',
+    },
   },
 }
