@@ -1,12 +1,10 @@
 ---
-import { localizePath } from "astro-i18next";
 import { t, changeLanguage } from "i18next";
 import Layout from "../../layouts/Layout.astro";
 
 changeLanguage("pt");
 
 const inputVal = t("send");
-const p = localizePath(`/submit_success`);
 ---
 
 <Layout title={t("contactTitle")}>
@@ -16,7 +14,7 @@ const p = localizePath(`/submit_success`);
       <form
         name="contact"
         method="post"
-        action={p}
+        action="/submit_success"
         netlify-honeypot="bot-field"
         data-netlify="true"
       >
