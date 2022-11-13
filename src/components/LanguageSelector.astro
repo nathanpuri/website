@@ -27,12 +27,12 @@ const sortedLngs = lngs.sort((a) => {
   function restoreSavedSelection() {
     const savedSelection = localStorage.getItem(LS_SELECTED_LOCATION_ID);
 
-    if (savedSelection) {
-      // remove the default selection
-      const currSelected = document.querySelector(
-        "#language-selector > option[selected]"
-      );
+    // remove the default selection
+    const currSelected = document.querySelector(
+      "#language-selector > option[selected]"
+    );
 
+    if (savedSelection) {
       if (currSelected) {
         currSelected.removeAttribute("selected");
       }
@@ -44,6 +44,13 @@ const sortedLngs = lngs.sort((a) => {
 
       if (actualSelected) {
         actualSelected.setAttribute("selected", "");
+      }
+    } else if (currSelected) {
+      const val = currSelected.value;
+
+      if (val) {
+        // save current selection so this can be restored
+        localStorage.setItem(LS_SELECTED_LOCATION_ID, val);
       }
     }
   }
