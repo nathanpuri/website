@@ -1,4 +1,4 @@
-/   /about
-/admin /admin/index.html
-/* /en/:splat 301! Language=en
-/* /pt/:splat 301! Language=pt
+/   /en/about 301! Language=en
+/   /pt/about 301! Language=pt
+/   /pt/about 301! Country=br
+/   /pt/about 301! Country=pt
