@@ -1,4 +1,5 @@
 ---
+layout: /src/layouts/netlify_cms.astro
 title: Teacher Bio
 slug: about
 date: 2022-07-08T20:44:32.637Z
