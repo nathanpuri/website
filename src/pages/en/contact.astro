@@ -6,6 +6,7 @@ import Layout from "../../layouts/Layout.astro";
 changeLanguage("en");
 
 const inputVal = t("send");
+const p = localizePath(`/submit_success`);
 ---
 
 <Layout title={t("contactTitle")}>
@@ -15,7 +16,7 @@ const inputVal = t("send");
       <form
         name="contact"
         method="post"
-        action={localizePath(`/submit_success`)}
+        action={p}
         netlify-honeypot="bot-field"
         data-netlify="true"
       >
