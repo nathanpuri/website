@@ -39,6 +39,7 @@ collections:
           name: "layout",
           widget: "hidden",
           default: "/src/layouts/netlify_cms.astro",
+          i18n: duplicate,
         }
       - { label: "Title", name: "title", widget: "string", i18n: true }
       - {
