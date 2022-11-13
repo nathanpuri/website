@@ -1,6 +1,7 @@
 ---
 import { HeadHrefLangs } from "astro-i18next/components";
 import i18next, { t } from "i18next";
+import Footer from "../components/Footer.astro";
 import Nav from "../components/Nav.astro";
 import Title from "../components/Title.astro";
 import LanguageSelector from "../components/LanguageSelector.astro";
@@ -42,233 +43,196 @@ const pageTitle = `${title} | Guru Natan`;
       <main>
         <slot />
       </main>
-      <footer class="dz-footer"></footer>
+      <Footer />
     </div>
-    <script>
-      const currYear = new Date().getFullYear();
-      const footerText = `&copy; Guru Natan ${currYear}`;
+    <style>
+      :root {
+        --font-size-sm: clamp(0.8rem, 0.2vw + 0.71rem, 1rem);
+        --font-size-m: clamp(0.9rem, 0.25vw + 0.81rem, 1.1rem);
+        --font-size-base: clamp(1rem, 0.34vw + 0.91rem, 1.19rem);
+        --font-size-mlg: clamp(1.1rem, 0.5vw + 1rem, 1.3rem);
+        --font-size-lg: clamp(1.2rem, 0.7vw + 1.2rem, 1.5rem);
+        --font-size-xl: clamp(2rem, 1.38vw + 1.5rem, 3rem);
 
-      const footerEl = document.querySelector(".dz-footer");
-      footerEl.innerHTML = footerText;
-    </script>
-  </body>
-
-  <style>
-    :root {
-      --font-size-sm: clamp(0.8rem, 0.2vw + 0.71rem, 1rem);
-      --font-size-m: clamp(0.9rem, 0.25vw + 0.81rem, 1.1rem);
-      --font-size-base: clamp(1rem, 0.34vw + 0.91rem, 1.19rem);
-      --font-size-mlg: clamp(1.1rem, 0.5vw + 1rem, 1.3rem);
-      --font-size-lg: clamp(1.2rem, 0.7vw + 1.2rem, 1.5rem);
-      --font-size-xl: clamp(2rem, 1.38vw + 1.5rem, 3rem);
-
-      --color-text: hsl(12, 5%, 4%);
-      --color-bg: hsl(10, 21%, 95%);
-      --color-border: hsl(17, 24%, 90%);
-      --color-primary-blue: #190274;
-      --color-primary-red: #800000;
-      --color-sidebar: #cf866e;
-      --banner-height: 178px;
-      --container-width: clamp(800px, 50vw, 1200px);
-    }
-
-    .dz-container {
-      background-color: white;
-      width: var(--container-width);
-      margin: 0 auto;
-    }
-
-    .dz-banner-img__link {
-      display: block;
-      width: 100%;
-      text-decoration: none;
-    }
-
-    .dz-footer {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      font-size: var(--font-size-base);
-      font-weight: bold;
-      color: white;
-      text-align: center;
-      background: var(--color-primary-blue);
-      height: 45px;
-      margin-top: 25px;
-    }
-
-    html {
-      font-family: "Times New Roman", Times, serif;
-      font-size: var(--font-size-base);
-      color: var(--color-text);
-      background: url("/background.jpg");
-    }
-
-    body {
-      margin: 0;
-    }
-
-    :global(a) {
-      color: var(--color-primary-red);
-    }
-
-    :global(a:hover) {
-      text-decoration: none;
-    }
-
-    :global(.dz-banner) {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-flow: row nowrap;
-      padding: 0 10px;
-      border-bottom: 1px solid black;
-      height: calc(var(--container-width) * 0.18);
-    }
-
-    :global(.dz-banner h1) {
-      color: black;
-      align-self: flex-end;
-      margin-block-start: 10px;
-      margin-block-end: 10px;
-    }
-
-    :global(.dz-banner-img) {
-      height: calc(100% - 20px);
-    }
-
-    :global(.dz-main-container) {
-      display: flex;
-      flex-flow: nowrap;
-      width: 66%;
-      margin: 0 10px;
-    }
-
-    :global(.dz-row-wrapper) {
-      display: flex;
-      flex-direction: row;
-    }
-
-    :global(.dz-image) {
-      border: 1px solid var(--color-primary-red);
-      margin-right: 10px;
-    }
-
-    :global(.dz-sidebar) {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-end;
-      width: 34%;
-    }
-
-    :global(.dz-sidebar__iframe-container) {
-      position: relative;
-      width: 100%;
-      height: 0;
-      padding-bottom: 56.25%;
-    }
-
-    :global(.dz-sidebar__iframe-container iframe) {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
-
-    :global(.dz-image__caption) {
-      font-size: var(--font-size-base);
-      text-align: left;
-      margin-block-start: 0;
-      margin-block-end: 0;
-      margin-right: 1.2rem;
-    }
-
-    :global(.dz-sidebar__heading) {
-      font-family: "georgia";
-      color: black;
-      font-size: var(--font-size-base);
-      line-height: 1;
-      text-align: left;
-      font-weight: bold;
-    }
-
-    :global(.text) {
-      font-size: var(--font-size-base);
-      text-align: justify;
-    }
-
-    :global(p) {
-      padding: 0 !important;
-    }
-
-    :global(h1) {
-      font-size: var(--font-size-xl);
-    }
-
-    :global(h2) {
-      font-size: var(--font-size-lg);
-    }
-
-    :global(code) {
-      font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-        DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
-    }
-
-    @media screen and (max-width: 672px) {
-      .dz-container {
-        width: unset;
+        --color-text: hsl(12, 5%, 4%);
+        --color-bg: hsl(10, 21%, 95%);
+        --color-border: hsl(17, 24%, 90%);
+        --color-primary-blue: #190274;
+        --color-primary-red: #800000;
+        --color-sidebar: #cf866e;
+        --banner-height: 178px;
+        --container-width: clamp(800px, 50vw, 1200px);
       }
 
-      .dz-banner-img,
+      .dz-container {
+        background-color: white;
+        width: var(--container-width);
+        margin: 0 auto;
+      }
+
       .dz-banner-img__link {
-        display: none;
+        display: block;
+        width: 100%;
+        text-decoration: none;
+      }
+      html {
+        font-family: "Times New Roman", Times, serif;
+        font-size: var(--font-size-base);
+        color: var(--color-text);
+        background: url("/background.jpg");
+      }
+
+      body {
+        margin: 0;
       }
 
       :global(a) {
-        /* ensure minimum recommended tap target size is met */
-        padding: 12px 0;
+        color: var(--color-primary-red);
+      }
+
+      :global(a:hover) {
+        text-decoration: none;
       }
 
       :global(.dz-banner) {
-        position: absolute;
         display: flex;
         justify-content: space-between;
         align-items: center;
         flex-flow: row nowrap;
-        padding: 0 16px;
-        margin: 0;
+        padding: 0 10px;
         border-bottom: 1px solid black;
-        height: calc(100vw * 0.2445);
-        width: calc(100vw - 32px);
+        height: calc(var(--container-width) * 0.18);
       }
 
       :global(.dz-banner h1) {
         color: black;
         align-self: flex-end;
-        margin-block-start: 5px;
-        margin-block-end: 5px;
-        font-size: var(--font-size-lg);
+        margin-block-start: 10px;
+        margin-block-end: 10px;
       }
 
       :global(.dz-banner-img) {
-        height: calc(100% - 32px);
-      }
-
-      :global(.dz-sidebar) {
-        margin: 24px 16px 0;
-        width: unset;
-      }
-
-      :global(.dz-sidebar__heading) {
-        font-size: var(--font-size-mlg);
+        height: calc(100% - 20px);
       }
 
       :global(.dz-main-container) {
-        flex-flow: column;
-        width: unset;
-        margin: 0 16px;
+        display: flex;
+        flex-flow: nowrap;
+        width: 66%;
+        margin: 0 10px;
       }
-    }
-  </style>
+
+      :global(.dz-row-wrapper) {
+        display: flex;
+        flex-direction: row;
+      }
+
+      :global(.dz-image) {
+        border: 1px solid var(--color-primary-red);
+        margin-right: 10px;
+      }
+
+      :global(.dz-sidebar) {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 34%;
+      }
+
+      :global(.dz-image__caption) {
+        font-size: var(--font-size-base);
+        text-align: left;
+        margin-block-start: 0;
+        margin-block-end: 0;
+        margin-right: 1.2rem;
+      }
+
+      :global(.dz-sidebar__heading) {
+        font-family: "georgia";
+        color: black;
+        font-size: var(--font-size-base);
+        line-height: 1;
+        text-align: left;
+        font-weight: bold;
+      }
+
+      :global(.text) {
+        font-size: var(--font-size-base);
+        text-align: justify;
+      }
+
+      :global(p) {
+        padding: 0 !important;
+      }
+
+      :global(h1) {
+        font-size: var(--font-size-xl);
+      }
+
+      :global(h2) {
+        font-size: var(--font-size-lg);
+      }
+
+      :global(code) {
+        font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
+          DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+      }
+
+      @media screen and (max-width: 672px) {
+        .dz-container {
+          width: unset;
+        }
+
+        .dz-banner-img,
+        .dz-banner-img__link {
+          display: none;
+        }
+
+        :global(a) {
+          /* ensure minimum recommended tap target size is met */
+          padding: 12px 0;
+        }
+
+        :global(.dz-banner) {
+          position: absolute;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          flex-flow: row nowrap;
+          padding: 0 16px;
+          margin: 0;
+          border-bottom: 1px solid black;
+          height: calc(100vw * 0.2445);
+          width: calc(100vw - 32px);
+        }
+
+        :global(.dz-banner h1) {
+          color: black;
+          align-self: flex-end;
+          margin-block-start: 5px;
+          margin-block-end: 5px;
+          font-size: var(--font-size-lg);
+        }
+
+        :global(.dz-banner-img) {
+          height: calc(100% - 32px);
+        }
+
+        :global(.dz-sidebar) {
+          margin: 24px 16px 0;
+          width: unset;
+        }
+
+        :global(.dz-sidebar__heading) {
+          font-size: var(--font-size-mlg);
+        }
+
+        :global(.dz-main-container) {
+          flex-flow: column;
+          width: unset;
+          margin: 0 16px;
+        }
+      }
+    </style>
+  </body>
 </html>
