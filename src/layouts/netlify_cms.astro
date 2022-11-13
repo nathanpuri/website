@@ -4,7 +4,6 @@ import i18next, { t } from "i18next";
 import Footer from "../components/Footer.astro";
 import Nav from "../components/Nav.astro";
 import Title from "../components/Title.astro";
-import LanguageSelector from "../components/LanguageSelector.astro";
 
 export interface Props {
   content: any;
@@ -41,7 +40,6 @@ i18next.changeLanguage(locale);
         </div>
       </a>
       <Nav />
-      <LanguageSelector class="my-select-class" />
       <Title title={title} />
       <main>
         <div class="dz-main-container">
@@ -81,6 +79,7 @@ i18next.changeLanguage(locale);
       }
 
       .dz-container {
+        position: relative;
         background-color: white;
         width: var(--container-width);
         margin: 0 auto;
@@ -259,6 +258,10 @@ i18next.changeLanguage(locale);
           flex-flow: column;
           width: unset;
           margin: 0 16px;
+        }
+
+        :global(.dz-nav__menu-toggle input:not(:checked) > #language-selector) {
+          display: none;
         }
       }
     </style>

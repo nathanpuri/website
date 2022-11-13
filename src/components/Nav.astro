@@ -1,6 +1,7 @@
 ---
 import { localizePath } from "astro-i18next";
 import i18next from "i18next";
+import LanguageSelector from "./LanguageSelector.astro";
 
 const locale = i18next.language;
 
@@ -54,13 +55,16 @@ navItems.push({
     <span></span>
     <span></span>
     <ul class="dz-nav__list">
-      {
-        navItems.map((item) => (
-          <li>
-            <a href={item.href}>{item.label}</a>
-          </li>
-        ))
-      }
+      <LanguageSelector />
+      <div class="dz-nav__list-child-wrapper">
+        {
+          navItems.map((item) => (
+            <li>
+              <a href={item.href}>{item.label}</a>
+            </li>
+          ))
+        }
+      </div>
     </ul>
   </div>
   <script>
@@ -92,6 +96,12 @@ navItems.push({
 
     .dz-banner {
       display: none !important;
+    }
+
+    .dz-nav__list-child-wrapper {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
     }
   }
 
@@ -220,7 +230,6 @@ navItems.push({
       width: 80vw;
       box-shadow: 0 0 10px #85888c;
       margin: -25px 0 0 -16px;
-      padding: 15vh 24px 24px 0;
       background-color: white;
       -webkit-font-smoothing: antialiased;
       transform-origin: 0% 0%;
@@ -228,8 +237,12 @@ navItems.push({
       transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
     }
 
+    .dz-nav__list-child-wrapper {
+      padding: 10vh 24px 24px 0;
+    }
+
     .dz-nav__list li {
-      padding: 10px 0;
+      padding: 8px 0;
       transition-delay: 2s;
       margin-left: 16px;
     }
@@ -242,7 +255,7 @@ navItems.push({
 
     a,
     a.highlight {
-      font-size: var(--font-size-xl);
+      font-size: var(--font-size-lg);
     }
 
     li:not(:first-child)::before {

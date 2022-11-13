@@ -85,13 +85,17 @@ const sortedLngs = lngs.sort((a) => {
     select {
       position: absolute;
       top: 0;
+      left: 0;
       margin: 16px 16px 0 0;
     }
   }
 
   @media screen and (max-width: 672px) {
     select {
-      margin: 16px 0 0 16px;
+      position: absolute;
+      top: 16px;
+      right: 0;
+      margin: 0 0 0 16px;
     }
   }
 </style>
