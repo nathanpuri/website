@@ -34,3 +34,8 @@ All commands are run from the root of the project, from a terminal:
 
 - Enabling i18n, then adding a translation to an existing page does not include the hidden layout field in the markdown output.
   - Each page must be recreated with translations.
+- Pages are empty on preview builds.
+
+## Astro i18next notes
+
+- Translated slugs are provided for existing pages in the config. New pages added via the CMS should use the same slug for both languages.
