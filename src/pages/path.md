@@ -1,7 +1,7 @@
 ---
 layout: /src/layouts/netlify_cms.astro
 title: "Ati: Beyond the Limits of a Path "
-slug: ati
+slug: path
 date: 2022-07-20T16:16:22.770Z
 thumbnail: /uploads/rainbowsamantabadra.png
 ---
