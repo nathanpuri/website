@@ -3,7 +3,7 @@ layout: /src/layouts/netlify_cms.astro
 title: "Puja, End of Life Service and Divination "
 slug: puja
 date: 2022-08-19T09:43:31.931Z
-thumbnail: /uploads/tibetan_mahakala-56a0c5663df78cafdaa4dfe6.jpg
+thumbnail: ""
 ---
 You may request puja services, for example, for the pacification of obstacles, illnesses, disturbing spirits, etc., and also for increasing wealth, attracting others, dispelling negative influences, and such. 
 
