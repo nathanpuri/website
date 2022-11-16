@@ -7,6 +7,8 @@ thumbnail: /uploads/img_20220910_143408_549.jpg
 ---
 gurunatan74@gmail.com
 
+tiktok.com/@guru_natan
+
 https://www.facebook.com/profile.php?id=100077414182060
 
 Natan descends from an ancient clan with deep connections to the earliest dharma, is mentioned by name in the Rig Veda and said to descend from Brahma. He began having visions of gurus and ḍākinīs from early childhood. Until 1947 his family lived in what was known as Udyana, the Swat Valley in Pakistan. Natan was trained in yoga and Sanskrit beginning when he was 6 years old by this grandfather from Benares, India. 
