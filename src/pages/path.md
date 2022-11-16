@@ -1,6 +1,6 @@
 ---
 layout: /src/layouts/netlify_cms.astro
-title: "Unlimited Illumination "
+title: Omniscient Wisdom
 slug: path
 date: 2022-07-20T16:16:22.770Z
 thumbnail: ""
