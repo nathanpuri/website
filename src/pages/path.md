@@ -3,7 +3,7 @@ layout: /src/layouts/netlify_cms.astro
 title: "Unlimited Illumination "
 slug: path
 date: 2022-07-20T16:16:22.770Z
-thumbnail: /uploads/rainbowsamantabadra.png
+thumbnail: ""
 ---
 Buddhahood is the most happiness possible. We need the best way to experience it.
 
