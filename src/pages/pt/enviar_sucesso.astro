@@ -1,14 +1,11 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-import { t, changeLanguage } from "i18next";
-
-changeLanguage("pt");
 ---
 
-<Layout title={t("thankYou")}>
+<Layout title="Obrigada">
   <main>
     <div class="dz-main-container">
-      <p class="alert">{t("yourMessageReceived")}</p>
+      <p class="alert">Obrigado, sua mensagem foi recebida!</p>
     </div>
   </main>
 </Layout>
