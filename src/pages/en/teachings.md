@@ -3,7 +3,7 @@ layout: /src/layouts/netlify_cms.astro
 title: Upcoming Teachings
 slug: teachings
 date: 2022-07-22T16:03:49.254Z
-thumbnail: /uploads/img_20220731_101048_238.jpg
+thumbnail: ""
 ---
 Atiyoga in Daily Life... Incorporating the Preliminaries: Sept 23, 2022, 18:00 Brasília, Livestream
 https://fb.me/e/2l2uqibFs
