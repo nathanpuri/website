@@ -5,26 +5,10 @@ import { t, changeLanguage } from "i18next";
 changeLanguage("en");
 ---
 
-<script>
-  const LS_SELECTED_LOCALE = "selectedLocale";
-
-  const l = localStorage.getItem(LS_SELECTED_LOCALE);
-
-  if (l === "pt") {
-    document.querySelector(".dz-title").innerText = "Obrigada";
-    document.querySelector("#thank-you-msg").innerText =
-      "Obrigado, sua mensagem foi recebida!";
-  } else {
-    document.querySelector(".dz-title").innerText = "Thank You";
-    document.querySelector("#thank-you-msg").innerText =
-      "Thanks, your message has been received!";
-  }
-</script>
-
-<Layout title="">
+<Layout title={t("thankYou")}>
   <main>
     <div class="dz-main-container">
-      <p class="alert" id="thank-you-msg"></p>
+      <p class="alert">{t("yourMessageReceived")}</p>
     </div>
   </main>
 </Layout>
