@@ -1,0 +1,27 @@
+---
+---
+
+<footer class="dz-footer"></footer>
+
+<script>
+  const currYear = new Date().getFullYear();
+  const footerText = `&copy; Guru Natan ${currYear}`;
+
+  const footerEl = document.querySelector(".dz-footer");
+  footerEl.innerHTML = footerText;
+</script>
+
+<style>
+  .dz-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: var(--font-size-base);
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    background: var(--color-primary-blue);
+    height: 45px;
+    margin-top: 25px;
+  }
+</style>

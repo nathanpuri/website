@@ -8,6 +8,20 @@ public_folder: "/uploads"
 editor:
   preview: false # we're going to hide the preview editor
 
+i18n:
+  # Required and can be one of multiple_folders, multiple_files or single_file
+  # multiple_folders - persists files in `<folder>/<locale>/<slug>.<extension>`
+  # multiple_files - persists files in `<folder>/<slug>.<locale>.<extension>`
+  # single_file - persists a single file in `<folder>/<slug>.<extension>`
+  structure: multiple_folders
+
+  # Required - a list of locales to show in the editor UI
+  locales: [en, pt]
+
+  # Optional, defaults to the first item in locales.
+  # The locale to be used for fields validation and as a baseline for the entry.
+  default_locale: en
+
 slug:
   encoding: "ascii"
   clean_accents: true
@@ -17,6 +31,7 @@ collections:
     name: "pages"
     folder: "/src/pages"
     create: true
+    i18n: true
     slug: "{{fields.slug}}"
     fields: # The fields for each document, usually in front matter
       - {
@@ -24,24 +39,39 @@ collections:
           name: "layout",
           widget: "hidden",
           default: "/src/layouts/netlify_cms.astro",
+          i18n: duplicate,
         }
-      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Title", name: "title", widget: "string", i18n: true }
       - {
           label: Slug,
           name: slug,
           widget: string,
           description: "This is the part of the URL which differentiates this page from other pages of the website, e.g. mahayana-in-daily-life. The convention is to use kebab-case.",
+          hint: "N.B. slug must be different for each locale",
           pattern:
             [
               "^[a-z0-9-]+$",
               "The slug must contain only lower case letters, numbers and hyphens",
             ],
+          i18n: true,
         }
-      - { label: "Body", name: "body", widget: "text", required: false }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - {
+          label: "Body",
+          name: "body",
+          widget: "text",
+          required: false,
+          i18n: true,
+        }
+      - {
+          label: "Publish Date",
+          name: "date",
+          widget: "datetime",
+          i18n: duplicate,
+        }
       - {
           label: "Featured Image",
           name: "thumbnail",
           widget: "image",
           required: false,
+          i18n: duplicate,
         }

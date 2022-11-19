@@ -1,0 +1,138 @@
+---
+import i18next from "i18next";
+import { localizePath } from "astro-i18next";
+import ISO6991 from "iso-639-1";
+
+const supportedLanguages = i18next.languages;
+const currentLanguage = i18next.language;
+
+const { pathname } = Astro.url;
+
+const lngs = supportedLanguages as [];
+// ensure the current selection matches the page's language
+const sortedLngs = lngs.sort((a) => {
+  return a === currentLanguage ? -1 : 1;
+});
+
+const { ...attributes } = Astro.props;
+---
+
+<script define:vars={{ supportedLanguages }}>
+  window["supportedLanguages"] = supportedLanguages;
+</script>
+<script>
+  const LS_SELECTED_LOCALE = "selectedLocale";
+
+  function getBrowserLocales() {
+    const browserLocales =
+      navigator.languages === undefined
+        ? [navigator.language]
+        : navigator.languages;
+
+    if (!browserLocales) {
+      return undefined;
+    }
+
+    return browserLocales.map((locale) => {
+      const trimmedLocale = locale.trim();
+
+      return trimmedLocale.split(/-|_/)[0];
+    });
+  }
+
+  function getDefaultSelection() {
+    const savedLocale = localStorage.getItem(LS_SELECTED_LOCALE);
+
+    // remove the default selection
+    const currSelected = document.querySelector(
+      "#language-selector > option[selected]"
+    );
+
+    // set the saved selection chosen by the user
+    const options = document.querySelectorAll("#language-selector > option");
+    let actualSelected = null;
+
+    for (let i = 0; i < options.length; i++) {
+      const option = options[i];
+      const optionVal = option.value;
+      const localeSubstr = optionVal.substring(1, 3);
+
+      if (localeSubstr.includes(savedLocale)) {
+        actualSelected = option;
+      }
+    }
+
+    if (savedLocale && actualSelected) {
+      if (currSelected) {
+        currSelected.removeAttribute("selected");
+      }
+
+      if (actualSelected) {
+        actualSelected.setAttribute("selected", "");
+      }
+      // ensure default selection is saved
+    } else {
+      const locales = getBrowserLocales();
+
+      if (locales.length > 0) {
+        const locale = locales[0];
+
+        if (window["supportedLanguages"]?.includes(locale)) {
+          // save current selection so this can be restored
+          localStorage.setItem(LS_SELECTED_LOCALE, locale);
+        }
+      }
+    }
+  }
+
+  const onSelectChangeHandler = (ev) => {
+    const val = ev?.target?.value;
+
+    if (val) {
+      const locale = val.match(/\/(\w{2})\/.+/)[1];
+      localStorage.setItem(LS_SELECTED_LOCALE, locale);
+      window.location = val;
+    }
+  };
+
+  getDefaultSelection();
+
+  document
+    .getElementById("language-selector")
+    .addEventListener("change", onSelectChangeHandler);
+</script>
+
+<select {...attributes} id="language-selector">
+  {
+    sortedLngs.map((supportedLanguage: string) => {
+      let value = localizePath(pathname, supportedLanguage);
+      const nativeName = ISO6991.getNativeName(supportedLanguage);
+      const label = nativeName;
+      return (
+        <option value={value} selected={supportedLanguage === currentLanguage}>
+          {label}
+        </option>
+      );
+    })
+  }
+</select>
+
+<style>
+  @media screen and (min-width: 672px) {
+    select {
+      position: absolute;
+      top: 0;
+      left: 0;
+      margin: 16px 16px 0 0;
+    }
+  }
+
+  @media screen and (max-width: 672px) {
+    select {
+      position: absolute;
+      top: 16px;
+      right: 0;
+      margin: 0 0 0 16px;
+    }
+  }
+</style>

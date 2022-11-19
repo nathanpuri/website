@@ -9,6 +9,10 @@
     "preview": "astro preview"
   },
   "devDependencies": {
-    "astro": "^1.0.0-beta.44"
+    "astro": "~1.6.2"
+  },
+  "dependencies": {
+    "astro-i18next": "1.0.0-beta.13",
+    "i18next": "^22.0.5"
   }
 }
