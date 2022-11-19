@@ -3,7 +3,7 @@ layout: /src/layouts/netlify_cms.astro
 title: Próximos Ensinamentos
 slug: ensinamentos
 date: 2022-07-22T16:03:49.254Z
-thumbnail: /uploads/img_20220731_101048_238.jpg
+thumbnail: ''
 ---
 
 Atiyoga in Daily Life... Incorporando as Preliminares: 23 de setembro de 2022, 18:00 Brasília, Livestream
