@@ -23,7 +23,7 @@ All commands are run from the root of the project, from a terminal:
 ## Use local Netlify CMS backend during development
 
 1. Add top-level `local_backend: true` config setting.
-1. Run npx netlify-cms-proxy-server from the root directory.
+1. Run `npx netlify-cms-proxy-server` from the root directory.
 
 ## Layouts
 
