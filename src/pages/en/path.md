@@ -3,11 +3,12 @@ layout: /src/layouts/netlify_cms.astro
 title: Omniscient Wisdom
 slug: path
 date: 2022-07-20T16:16:22.770Z
-thumbnail: ""
+thumbnail: ''
 ---
+
 Buddhahood is the most happiness possible. We need the best way to experience it.
 
-Among the Buddha's discourses there is always a higher disclosure and a faster and more complete teaching. 
+Among the Buddha's discourses there is always a higher disclosure and a faster and more complete teaching.
 
 While Buddha taught many teachings that are proper paths, along with empowerments, descriptions of tantric anatomy, activities, yoga positions, mantras, stages and signs of accomplishment and so forth, it also has another mode of operation which is more direct and beyond beginning, middle and end or progression.
 
