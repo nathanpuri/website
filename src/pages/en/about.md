@@ -24,6 +24,6 @@ Also in 2014, during a retreat with Kyabje Taklung Tsetrul Rinpoche him gave him
 
 In 2016, he received a complete transmission of the Guhyagarbha Tantra and the Chetsun Nyingthig by Khenchen Namdrol. He was very inspired by it and began a journey around the world to perfect it's practice. He wandered throughout Asia and North America for three years and then in 2019 began wandering around Brazil until the present and has completed the requirements of Guhyagarbha.
 
-Natan teaches from the tantras, upadeshas and from his own experiential instructions and experiences. He lives in isolation in Rio de Janeiro, Brazil, in constant retreat. His vision is to build a mutually supportive community of full time practicing Vajrayana teachers connected personally and online.
+Natan teaches from the tantras, upadeshas and from his own experiential instructions and experiences, especially related with Mahamudra and Yangti. He lives in isolation in Rio de Janeiro, Brazil, in constant retreat. His vision is to build a mutually supportive community of full time practicing Vajrayana teachers connected personally and online.
 
 Please read more on the teachings to learn more about the teaching approach.
