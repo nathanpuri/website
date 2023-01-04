@@ -20,7 +20,7 @@ Natan earned a certificate in Mahamudra training from HH Kyabgon Chetsang Rinpoc
 
 During this period he received extensive Atiyoga teachings from several lamas including Namkhai Norbu Rinpoche and completed several three roots, togal and yangti retreats. His experience of Dzogchen visions comes primarily through Dungtso Repa's Yangti method, but also from thogal practice. The two systems have very different approaches toward visions and describe them differently, with different significance given to different signs and times. However, they are more or less in harmony. Thus Natan exhibits a high level of proficiency in Vajrayana.
 
-Also in 2014, during a retreat with Kyabje Taklung Tsetrul Rinpoche him gave him an oral examination about the four visions of Dzogchen and confirmed his experiences. At that time, he gave Natan authority to teach up to and including Upadesha. Thus he is authorized to practice and teach Mahamudra and Dzogchen.
+Also in 2014, during a retreat with Kyabje Taklung Tsetrul Rinpoche him gave him an oral examination about his experience with the four visions of Dzogchen and confirmed his experiences. At that time, he gave Natan authority to teach up to and including Upadesha. Thus he is authorized to practice and teach Mahamudra and Dzogchen.
 
 In 2016, he received a complete transmission of the Guhyagarbha Tantra and the Chetsun Nyingthig by Khenchen Namdrol. He was very inspired by it and began a journey around the world to perfect it's practice. He wandered throughout Asia and North America for three years and then in 2019 began wandering around Brazil until the present and has completed the requirements of Guhyagarbha.
 
