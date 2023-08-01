@@ -3,7 +3,7 @@ layout: /src/layouts/netlify_cms.astro
 title: Instructions
 slug: path
 date: 2022-07-20T16:16:22.770Z
-thumbnail: /uploads/c32073_64x95.jpg
+thumbnail: /uploads/samanthabadra-lg-768x1110.jpg
 ---
 We begin with instructions on bodhicitta, the awakened mind, which is both the foundation teaching and the result. Thus, it is intended for all people.
 
