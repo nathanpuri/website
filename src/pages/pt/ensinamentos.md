@@ -3,6 +3,6 @@ layout: /src/layouts/netlify_cms.astro
 title: Dharma No Parque
 slug: ensinamentos
 date: 2022-07-22T16:03:49.254Z
-thumbnail: /uploads/b903211fc59e6b21338788d1e5954dc4_0.jpeg
+thumbnail: /uploads/img-20230801-wa0002.jpg
 ---
-Dharma no Parque, sábados às 14h, Museu da República, Rio de Janeiro, RJ Brasil
+Dharma no Parque, sábados às 09h00, Museu da República, Rio de Janeiro, RJ Brasil

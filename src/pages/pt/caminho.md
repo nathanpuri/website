@@ -1,10 +1,10 @@
 ---
 layout: /src/layouts/netlify_cms.astro
-title: O Caminho
+title: Instruções
 slug: caminho
 date: 2022-07-20T16:16:22.770Z
-thumbnail: /uploads/c32073_64x95.jpg
+thumbnail: /uploads/samanthabadra-lg-768x1110.jpg
 ---
-Começamos com instruções sobre bodhicitta, o despertar para a intenção iluminada dos Budas com a contemplação de Avalokiteshvara, o prajñāpāramitā da única sílaba A e o mantra “aum manipadme hūm [shrī]” para gerar grande amor, compaixão e despertar.
+Começamos com instruções sobre bodhicitta, a mente desperta, que é tanto o ensinamento básico quanto o resultado. Assim, destina-se a todas as pessoas.
 
-https://pt.m.wikipedia.org/wiki/Om_mani_padme_hum
+Todos os sábados às 9:00 horas da manhã no parque do Museu da República no Rio de Janeiro ao lado do lago dos patos.
