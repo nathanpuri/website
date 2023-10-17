@@ -17,9 +17,8 @@ try {
       break;
     }
     case "en":
-    default: {
+    default:
       netlifyPages = await Astro.glob(`../pages/en/*.md`);
-    }
   }
 } catch (err) {
   console.error("Unable to retrieve Netlify CMS pages:", err);

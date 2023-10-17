@@ -69,6 +69,7 @@ const { ...attributes } = Astro.props;
 
       if (actualSelected) {
         actualSelected.setAttribute("selected", "");
+        actualSelected.dispatchEvent(new Event('change', { 'bubbles': true }))
       }
       // ensure default selection is saved
     } else {
