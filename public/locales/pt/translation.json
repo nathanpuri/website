@@ -10,5 +10,7 @@
     },
     "message": "Mensagem:",
     "name": "Nome:",
-    "send": "Mandar"
+    "send": "Mandar",
+    "image": "imagem",
+    "languageSelect": "selecione o idioma"
 }

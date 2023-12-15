@@ -10,5 +10,7 @@
     },
     "message": "Message:",
     "name": "Name:",
-    "send": "Send"
+    "send": "Send",
+    "image": "image",
+    "languageSelect": "select language"
 }

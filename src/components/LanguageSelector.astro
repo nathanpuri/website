@@ -95,7 +95,7 @@ const { ...attributes } = Astro.props;
     .addEventListener("change", onSelectChangeHandler);
 </script>
 
-<select {...attributes} id="language-selector">
+<select {...attributes} id="language-selector" aria-label={i18next.t("languageSelect")}>
   {
     sortedLngs.map((supportedLanguage: string) => {
       let value = localizePath(pathname, supportedLanguage);
