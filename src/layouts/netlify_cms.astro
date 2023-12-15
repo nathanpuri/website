@@ -58,7 +58,7 @@ i18next.changeLanguage(locale);
                   class="dz-image"
                   src={thumbnail}
                   alt={`Natan ${t("image")}`}
-                  style={`shape-outside: url(${thumbnail})`}
+                  style={`shape-outside: url(${thumbnail});display: none;`}
                 />
               </picture>
             ) : (
@@ -75,6 +75,7 @@ i18next.changeLanguage(locale);
 
             o.srcset = img.src;
             o.style.display = "none";
+            img.style.display = "block"
           }
           const f = document.getElementById("fallback-thumbnail");
 
