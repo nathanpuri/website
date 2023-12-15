@@ -13,6 +13,7 @@ const { content } = Astro.props as Props;
 const { title, thumbnail, url } = content;
 
 const locale = url.includes("/pt/") ? "pt" : "en";
+const thumbnailOptimized = `/.netlify/images?url=${thumbnail}`;
 
 i18next.changeLanguage(locale);
 ---
@@ -45,12 +46,21 @@ i18next.changeLanguage(locale);
         <div class="dz-main-container">
           {
             thumbnail ? (
-              <img
-                class="dz-image"
-                alt={`Natan ${t("image")}`}
-                src={thumbnail}
-                style={`shape-outside: url(${thumbnail})`}
-              />
+              <picture>
+                <source
+                  id="optimized-thumbnail"
+                  class="dz-image"
+                  srcset={thumbnailOptimized}
+                  style={`shape-outside: url(${thumbnailOptimized})`}
+                />
+                <img 
+                  class="dz-image"
+                  src={thumbnail}
+                  alt={`Natan ${t("image")}`}
+                  style={`shape-outside: url(${thumbnail})`}
+                  onerror="this.onerror=null;document.getElementById('optimized-thumbnail').srcset=this.src;"
+                />
+              </picture>
             ) : (
               ""
             )
@@ -96,7 +106,7 @@ i18next.changeLanguage(locale);
         font-family: "Times New Roman", Times, serif;
         font-size: var(--font-size-base);
         color: var(--color-text);
-        background: url("/background.jpg");
+        background: url("/background.webp");
       }
 
       body {
