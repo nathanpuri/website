@@ -53,12 +53,12 @@ i18next.changeLanguage(locale);
                   srcset={thumbnailOptimized}
                   style={`shape-outside: url(${thumbnailOptimized})`}
                 />
-                <img 
+                <img
+                  id="fallback-thumbnail"
                   class="dz-image"
                   src={thumbnail}
                   alt={`Natan ${t("image")}`}
                   style={`shape-outside: url(${thumbnail})`}
-                  onerror="this.onerror=null;document.getElementById('optimized-thumbnail').srcset=this.src;"
                 />
               </picture>
             ) : (
@@ -67,6 +67,19 @@ i18next.changeLanguage(locale);
           }
           <slot />
         </div>
+        <script>
+          function onError(img) {
+            img.onerror = null;
+
+            const o = document.getElementById("optimized-thumbnail");
+
+            o.srcset = img.src;
+            o.style.display = "none";
+          }
+          const f = document.getElementById("fallback-thumbnail");
+
+          f.addEventListener("error", () => onError(f));
+        </script>
       </main>
       <Footer />
     </div>

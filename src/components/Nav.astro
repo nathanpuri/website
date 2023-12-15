@@ -53,7 +53,7 @@ navItems.push({
     <span></span>
     <span></span>
     <span></span>
-    <ul class="dz-nav__list">
+    <div class="dz-nav__list">
       <LanguageSelector />
       <ul class="dz-nav__list-child-wrapper">
         {
@@ -64,7 +64,7 @@ navItems.push({
           ))
         }
       </ul>
-    </ul>
+    </div>
   </div>
   <script>
     const navItems = document.querySelectorAll(".dz-nav__list a");
@@ -246,7 +246,7 @@ navItems.push({
       margin-left: 16px;
     }
 
-    .dz-nav__menu-toggle input:checked ~ ul {
+    .dz-nav__menu-toggle input:checked ~ div.dz-nav__list {
       transform-origin: 0% 0%;
       transform: translate(calc(80vw + 36px), 0);
       transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
