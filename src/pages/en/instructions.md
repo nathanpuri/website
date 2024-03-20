@@ -11,4 +11,6 @@ Further, when one refers to "Dzogchen," one refers to an inherent quality of min
 
 One of the ways Natan has been able to identify who has received the higher experiential knowledge if not the higher experiential instructions is those who have understand the interconnectedness and unity among lineages. The sad reality is there are so few such yogis who want to teach at all and for good reason, folks tend either to take a self-teaching approach or adhere too much to texts and/or traditions.
 
-The happy reality is the methods for transmitting the wisdom of a Buddha very quickly do exist, can be taught, can be practiced in ordinary life, and reap amazing benefits for one's life. Therefore "Atisiddhi" are those teachings at the upper limit of what is possible to transmit with regard to experiential buddhadharma. You are invited to request them, learn them and put them to good use in your home.
+The happy reality is the methods for transmitting the wisdom of a Buddha very quickly do exist, can be taught, can be practiced in ordinary life, and reap amazing benefits for one's life. Therefore "Atisiddhi" are those teachings at the upper limit of what is possible to transmit with regard to experiential buddhadharma. You are invited to request them, learn them and put them to good use in your home. 
+
+All that is taught must not be written. We will not work from texts, but only with what can be committed to memory, so that one's practice can never be lost.
