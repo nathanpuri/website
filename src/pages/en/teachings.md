@@ -1,8 +1,8 @@
 ---
 layout: /src/layouts/netlify_cms.astro
-title: Dharma in the Park
+title: When to Receive Teachings
 slug: teachings
 date: 2022-07-22T16:03:49.254Z
-thumbnail: /uploads/img-20230801-wa0002.jpg
+thumbnail: /uploads/8p132o.jpg
 ---
-Dharma in the Park, Saturdays at 09:00 hrs, Museu da República, Rio de Janeiro, RJ Brasil
+Instructions will be made available upon request. Natan publishes videos on YouTube @gurunatan for general information.
