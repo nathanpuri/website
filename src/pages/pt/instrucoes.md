@@ -1,4 +1,5 @@
 ---
+layout: /src/layouts/netlify_cms.astro
 title: Instruções
 slug: instrucoes
 thumbnail: /uploads/8p132o.jpg

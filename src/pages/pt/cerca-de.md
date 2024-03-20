@@ -1,4 +1,5 @@
 ---
+layout: /src/layouts/netlify_cms.astro
 title: Biografia do professor
 slug: cerca-de
 thumbnail: /uploads/t1qcl9~2.jpg
