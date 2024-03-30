@@ -1,6 +1,6 @@
 ---
 layout: /src/layouts/netlify_cms.astro
-title: Directly Confronting Dharmadhatu
+title: Dharma Without Meditation
 slug: instructions
 date: 2022-07-20T16:16:22.770Z
 thumbnail: /uploads/8p132o.jpg
