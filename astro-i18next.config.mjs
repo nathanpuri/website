@@ -12,6 +12,7 @@ export default {
     en: {
       about: 'about',
       contact: 'contact',
+      ['direct-introduction-rigpa']: 'direct-introduction-rigpa',
       instructions: 'instructions',
       ['mahayana-context']: 'mahayana-context',
       ['mahayana-in-daily-life']: 'mahayana-in-daily-life',
@@ -23,6 +24,7 @@ export default {
     pt: {
       about: 'cerca-de',
       contact: 'contato',
+      ['direct-introduction-rigpa']: 'introducao-direta-rigpa',
       instructions: 'instrucoes',
       ['mahayana-context']: 'contexto-mahayana',
       ['mahayana-in-daily-life']: 'mahayana-na-vida-cotidiana',
