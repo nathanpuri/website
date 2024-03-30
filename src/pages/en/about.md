@@ -5,6 +5,8 @@ slug: about
 date: 2023-07-21T16:32:42.442Z
 thumbnail: /uploads/t1qcl9~2.jpg
 ---
+Haiku directly confronting dharmadhatu for peace and joy.
+
 After many years of learning and practice in the most secret oral instructions of Tibetan Buddhism which are forbidden to be written and may only be taught to those who show great devotion (in both Nyingma and Kagyu lineages), Natan was encouraged to teach by Kyabjé Taklung Tsetrul Rinpoche and Drubpon Gonpo Dorje Rinpoche. 
 
 Natan did as his lamas commanded which was first to master a great tantra and certain important mantra practices. Ten years after being instructed to teach and after receiving the various empowerments he wandered alone around the world, practicing each of the pujas according to the instructions and learning how best to work them in modern life, while diligently applying the oral instructions daily.
