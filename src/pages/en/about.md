@@ -19,6 +19,6 @@ This is for those who wish to skip ahead and test out of the common curriculum. 
 
 Therefore, we will away from the common class of instructors so prevalent on the internet and in dharma centers limited by tradition and classical Tibetan literature. Natan is doing exactly what his lama's bade him to do: to find a new way to teach the highest teachings in Vajrayana in the clearest way with the fewest words. 
 
-Natan will use haiku and other terse means directly to confront the dharmadhatu with you for lasting peace and joy.
+Natan will use haiku and other terse means directly to confront the dharmadhatu for peace and joy.
 
 <gurunatan74@gmail.com>
