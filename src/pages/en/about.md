@@ -9,8 +9,8 @@ Natan was encouraged to teach by Kyabjé Taklung Tsetrul Rinpoche and Drubpon Go
 
 Due to the difficulty in finding a word that reflects both lineages of instruction, Natan invented the word Atisiddhi, which is a Sanskrit way of saying it. There could be others. It helps to use less words.
 
-Natan most enjoys introducing the nature of mind and the transcendant experience of Samantabhadra that comes with it. There is no need to engage in methods and practices. He teaches from the level of Yangti and beyond it, mTha'-chen. 
+Natan most enjoys introducing the nature of mind and the transcendant experience of Samantabhadra that comes with it. There is no need to engage in methods and practices. He teaches from the level of Yangti, beyond it, mTha'-chen, and even beyond that, Atisiddhi.
 
-In order to avoid a lot of doctrinal debate Natan simply teaches Atisiddhi which is his own way of introducing folks to Buddha's liberation.
+In order to avoid a lot of doctrinal debate Natan simply teaches Atisiddhi which is his own way of introducing folks to Buddha's liberation. It is really not that difficult to comprehend.
 
 <gurunatan74@gmail.com>
