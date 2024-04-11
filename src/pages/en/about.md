@@ -3,7 +3,7 @@ layout: /src/layouts/netlify_cms.astro
 title: Guru Bio
 slug: about
 date: 2023-07-21T16:32:42.442Z
-thumbnail: /uploads/t1qcl9~2.jpg
+thumbnail: /uploads/img-20240302-wa0006.jpg
 ---
 Natan was encouraged to teach by Kyabjé Taklung Tsetrul Rinpoche and Drubpon Gonpo Dorje Rinpoche of the Nyingma and Kagyu lineages on the subjects of Atiyoga (Dzogchen) and Mahamudra. He lives in Rio de Janeiro, Brazil.
 
