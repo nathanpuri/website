@@ -12,3 +12,4 @@ Due to the difficulty in finding a word that reflects both lineages of instructi
 Natan most enjoys introducing the nature of mind and the transcendant experience of Samantabhadra that comes with it. There is no need to engage in methods and practices. He teaches from the level of Yangti, beyond it, mTha'-chen, and even beyond that, Atisiddhi.
 
 <gurunatan74@gmail.com>
+Youtube @gurunatan
