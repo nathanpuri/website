@@ -1,9 +1,7 @@
 ---
 layout: /src/layouts/netlify_cms.astro
-title: "Direct Introduction"
+title: Direct Introduction
 slug: direct-introduction-rigpa
 date: 2024-03-30T14:02:15.292Z
 ---
-Directly Confront the Dharmadhatu
-
-...coming soon...
+We will host online meetings, using Google Meet. More on this to follow.
