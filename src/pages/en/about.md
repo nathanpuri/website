@@ -1,7 +1,7 @@
 ---
 layout: /src/layouts/netlify_cms.astro
-title: Dzogchen Guru Bio
-slug: about-dzogchen-guru
+title: Dzogchen Lama - Guru Bio
+slug: about-dzogchen-lama-guru
 date: 2023-07-21T16:32:42.442Z
 thumbnail: /uploads/img-20240302-wa0006.jpg
 ---
