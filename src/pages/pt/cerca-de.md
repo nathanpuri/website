@@ -1,6 +1,6 @@
 ---
 layout: /src/layouts/netlify_cms.astro
-title: Biografia do professor
+title: Dzogchen Lama - Dzogchen Guru Bio
 slug: cerca-de
 thumbnail: /uploads/t1qcl9~2.jpg
 ---
