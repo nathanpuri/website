@@ -1,7 +1,7 @@
 ---
 layout: /src/layouts/netlify_cms.astro
 title: Dzogchen no Brasil
-slug: dzogchen-brasil
+slug: cerca-de
 thumbnail: /uploads/img-20240302-wa0006.jpg
 ---
 Natan foi incentivado a ensinar por Kyabjé Taklung Tsetrul Rinpoche e Drubpon Gonpo Dorje Rinpoche das linhagens Nyingma e Kagyu sobre assuntos de Atiyoga (Dzogchen) e Mahamudra. Ele mora no Rio de Janeiro, Brasil.
