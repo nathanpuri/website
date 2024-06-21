@@ -1,6 +1,6 @@
 ---
 layout: /src/layouts/netlify_cms.astro
-title: Direct Introductions
+title: Direct Introductions to Dzogchen
 slug: direct-introduction
 date: 2024-03-30T14:02:15.292Z
 ---
