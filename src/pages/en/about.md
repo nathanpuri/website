@@ -9,7 +9,7 @@ Natan was encouraged to teach by Kyabjé Taklung Tsetrul Rinpoche and Drubpon Go
 
 He been in Brazil perfecting various practices at the behest of his gurus. Such practices include the ganachakrapuja, yoga of clear light sleep and dream, yangti yoga of the blue bindu, and co-emergent mahamudra and five-fold path mahamudra.
 
-The focus is on ganachakrapuja, khorde rushen and clear light and dream yoga of sleep combined with the pith instructions on transcending.
+The focus is on ganachakrapuja, khorde rushen and clear light and dream yoga of sleep combined with the pith instructions on transcending. Natan has written practice manuals explaining these matters and is available for in person or video call to discuss them.
 
 <gurunatan74@gmail.com>
 Youtube @gurunatan
