@@ -1,6 +1,6 @@
 ---
 layout: /src/layouts/netlify_cms.astro
-title: Rare Method of Mahamudra  and Dzogchen
+title: Rare Method of Mahamudra and Dzogchen
 slug: mahamudra-dzogchen
 date: 2024-07-24T09:46:49.823Z
 ---
