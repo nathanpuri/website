@@ -16,3 +16,5 @@ The second very special method Guru Natan can teach is the method of yangti and 
 The third are the direct introductions that later became know as mTha'-chen... These are said to bring near immediate understanding of the entire path of the Buddha's wisdom.
 
 Finally, all the pith instructions of the Drikung Kagyu on Ganga Mahamudra, Co-Emergent Mahamudra, Guhyagarbha Tantra and a plethora of deity yog methods from Kagyu and Nyingma. Also  Dungtso Repa's Black Yangti and pith instructions on tregcho and thogal.
+
+Guru Natan is also hold of his own vision treasure teachings which he gives by pith instructions and are well suited to email conversations, chats or Google Meet.
