@@ -22,6 +22,8 @@ export default {
       submit_success: 'submit_success',
       teachings: 'teachings',
       ['when-to-receive-teachings']: 'when-to-receive-teachings',
+      ['chat-email-teachings']: 'chat-email-teachings',
+      ['mahamudra-dzogchen']: 'mahamudra-dzogchen',
     },
     pt: {
       about: 'cerca-de',
@@ -36,6 +38,8 @@ export default {
       submit_success: 'enviar_sucesso',
       teachings: 'ensinamentos',
       ['when-to-receive-teachings']: 'quando-receber-ensinamentos',
+      ['chat-email-teachings']: 'chat-e-mail-ensinamentos',
+      ['mahamudra-dzogchen']: 'mahamudra-dzogchen',
     },
   },
 }
