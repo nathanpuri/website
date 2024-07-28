@@ -7,7 +7,7 @@ thumbnail: /uploads/img-20240302-wa0006.jpg
 ---
 "All my life I have been primarily concerned with ignorance and its consequences, actions that lead to suffering of humanity.to the possibiliy of painful destinations, and which are the very best ways overcome these  problems. Then, one's life can be full of joy and wonders."
 
-Natan was encouraged to teach by Kyabjé Taklung Tsetrul Rinpoche and Drubpon Gonpo Dorje Rinpoche of the Nyingma and Kagyu lineages on the subjects of Atiyoga (Dzogchen) and Mahamudra. He lives in Rio de Janeiro, Brazil.
+NaTaN was encouraged to teach by Kyabjé Taklung Tsetrul Rinpoche and Drubpon Gonpo Dorje Rinpoche of the Nyingma and Kagyu lineages on the subjects of Atiyoga (Dzogchen) and Mahamudra. He lives in Rio de Janeiro, Brazil.
 
 He been in Brazil perfecting various practices at the behest of his gurus. Such practices include the ganachakrapuja, yoga of clear light sleep and dream, yangti yoga of the blue bindu, and co-emergent mahamudra and five-fold path mahamudra.
 
