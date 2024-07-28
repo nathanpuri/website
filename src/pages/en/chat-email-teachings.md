@@ -3,7 +3,7 @@ layout: /src/layouts/netlify_cms.astro
 title: Possibility of Online Chat Teachings, Email Coversations or Google Meet
 slug: chat-email-teachings
 date: 2024-07-24T11:17:12.205Z
-thumbnail: /uploads/designer-2024-07-13t085413.765.jpeg
+thumbnail: /uploads/_f4c505ff-5f80-4b01-bd7e-7f0c2c4963f7.jpg
 ---
 I will speak directly this time. I have limited resources, due to karmic conditions. I only own a laptop. 
 
