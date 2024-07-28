@@ -3,7 +3,7 @@ layout: /src/layouts/netlify_cms.astro
 title: Dzogchen in Brazil
 slug: about
 date: 2023-07-21T16:32:42.442Z
-thumbnail: /uploads/img-20240302-wa0006.jpg
+thumbnail: /uploads/_e9cfda27-9f61-4fc2-8fa4-b2143d594825.jpg
 ---
 "All my life I have been primarily concerned with ignorance and its consequences, actions that lead to suffering of humanity.to the possibiliy of painful destinations, and which are the very best ways to overcome these  problems. Then, one's life can be full of joy and wonders."
 
