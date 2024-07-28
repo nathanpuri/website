@@ -3,7 +3,7 @@ layout: /src/layouts/netlify_cms.astro
 title: Rare Methods of Mahamudra and Dzogchen
 slug: mahamudra-dzogchen
 date: 2024-07-24T09:46:49.823Z
-thumbnail: /uploads/designer-2024-07-14t075016.273.jpeg
+thumbnail: /uploads/_a610c457-e0ea-4faf-a1af-77add1ab3f72.jpg
 ---
 Guru Natan is the sole holder in the West of a very special Mahamudra method from Vajravarahi to Lawapa which became the basis of Lord Gampopa's Five-Fold Path Mahamudra in the Drikung Kagyu. The name of the method is secret as well as the contents. It does not require an empowerment. It is given to those who show great devotion.
 

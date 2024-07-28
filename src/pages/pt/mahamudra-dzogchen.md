@@ -1,9 +1,9 @@
 ---
 layout: /src/layouts/netlify_cms.astro
 title: Métodos Raros de Mahamudra e Dzogchen
-date: 2024-07-24T09:46:49.823Z
 slug: mahamudra-dzogchen
-thumbnail: /uploads/designer-2024-07-14t075016.273.jpeg
+date: 2024-07-24T09:46:49.823Z
+thumbnail: /uploads/_a610c457-e0ea-4faf-a1af-77add1ab3f72.jpg
 ---
 Guru Natan é o único detentor no Ocidente de um método Mahamudra muito especial, de Vajravarahi a Lawapa, que se tornou a base do Mahamudra do Caminho Quíntuplo do Senhor Gampopa no Drikung Kagyu. O nome do método é secreto assim como o conteúdo. Não requer uma capacitação. É dado àqueles que demonstram grande devoção.
 
