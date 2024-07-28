@@ -5,7 +5,7 @@ slug: about
 date: 2023-07-21T16:32:42.442Z
 thumbnail: /uploads/img-20240302-wa0006.jpg
 ---
-"All my life I have been primarily concerned with ignorance and its consequences, actions that lead to suffering of humanity.to the possibiliy of painful destinations, and which are the very best ways overcome these  problems. Then, one's life can be full of joy and wonders."
+"All my life I have been primarily concerned with ignorance and its consequences, actions that lead to suffering of humanity.to the possibiliy of painful destinations, and which are the very best ways to overcome these  problems. Then, one's life can be full of joy and wonders."
 
 NaTaN was encouraged to teach by Kyabjé Taklung Tsetrul Rinpoche and Drubpon Gonpo Dorje Rinpoche of the Nyingma and Kagyu lineages on the subjects of Atiyoga (Dzogchen) and Mahamudra. He lives in Rio de Janeiro, Brazil.
 
