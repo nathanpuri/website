@@ -1,3 +1,3 @@
 ---
-thumbnail: /uploads/_f4c505ff-5f80-4b01-bd7e-7f0c2c4963f7.jpg
+thumbnail: /uploads/_a730a9c6-4228-4178-8e7b-8c3378a8e41b.jpg
 ---
