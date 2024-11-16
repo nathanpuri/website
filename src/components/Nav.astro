@@ -62,7 +62,7 @@ const contactItem ={
           <a href={aboutItem.href}>{aboutItem.label}</a>
         </li>
         <li class="dz-heading" aria-haspopup="true" aria-expanded="false">
-          <button aria-label="Toggle Articles Dropdown">Articles</button>
+          <button aria-label={i18next.t("articles-aria")}>{i18next.t("articles")}</button>
           <ul class="dz-nav__list-child-wrapper__nested" role="menu">
             {
               navItems.map((item) => (

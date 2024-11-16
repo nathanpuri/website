@@ -12,5 +12,7 @@
     "name": "Name:",
     "send": "Send",
     "image": "image",
-    "languageSelect": "select language"
+    "languageSelect": "select language",
+    "articles": "Articles",
+    "articles-aria": "Toggle Articles Dropdown"
 }

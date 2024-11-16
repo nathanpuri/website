@@ -12,5 +12,7 @@
     "name": "Nome:",
     "send": "Mandar",
     "image": "imagem",
-    "languageSelect": "selecione o idioma"
+    "languageSelect": "selecione o idioma",
+    "articles": "Artigos",
+    "articles-aria": "Alternar menu de artigos"
 }
