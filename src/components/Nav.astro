@@ -24,16 +24,14 @@ try {
   console.error("Unable to retrieve Netlify CMS pages:", err);
 }
 
-const navItems = netlifyPages.map((page) => {
-  return {
-    label: page.frontmatter.title,
-    href: localizePath(`/${page.frontmatter.slug}`),
-  };
-});
+const navItems = netlifyPages.map((page) => ({
+  label: page.frontmatter.title,
+  href: localizePath(`/${page.frontmatter.slug}`),
+}));
 
-const aboutItem = navItems.shift()
+const aboutItem = navItems.shift();
 
-const contactItem ={
+const contactItem = {
   label: i18next.t("contactTitle"),
   href: localizePath(`/${i18next.t("contactPath")}`),
 };
@@ -114,7 +112,7 @@ const contactItem ={
       display: flex;
       flex-direction: row;
       justify-content: center;
-      color: black;
+      color: var(--color-primary);
       text-decoration: none;
       font-size: var(--font-size-sm);
       font-weight: bold;
@@ -277,7 +275,7 @@ const contactItem ={
       height: 2px;
       margin-bottom: 5px;
       position: relative;
-      background: black;
+      background: var(--color-primary);
       border-radius: 3px;
       z-index: 1;
       transform-origin: 5px 0px;
@@ -296,7 +294,7 @@ const contactItem ={
     .dz-nav__menu-toggle input:checked ~ span {
       opacity: 1;
       transform: rotate(45deg) translate(-3px, -1px);
-      background: black;
+      background: var(--color-primary);
     }
 
     .dz-nav__menu-toggle input:checked ~ span:nth-last-child(3) {
