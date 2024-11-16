@@ -31,10 +31,12 @@ const navItems = netlifyPages.map((page) => {
   };
 });
 
-navItems.push({
+const aboutItem = navItems.shift()
+
+const contactItem ={
   label: i18next.t("contactTitle"),
   href: localizePath(`/${i18next.t("contactPath")}`),
-});
+};
 ---
 
 <nav class="dz-nav">
@@ -56,13 +58,23 @@ navItems.push({
     <div class="dz-nav__list">
       <LanguageSelector />
       <ul class="dz-nav__list-child-wrapper">
-        {
-          navItems.map((item) => (
-            <li>
-              <a href={item.href}>{item.label}</a>
-            </li>
-          ))
-        }
+        <li>
+          <a href={aboutItem.href}>{aboutItem.label}</a>
+        </li>
+        <li class="dz-heading">Articles
+          <ul class="dz-nav__list-child-wrapper__nested">
+            {
+              navItems.map((item) => (
+                <li>
+                  <a href={item.href}>{item.label}</a>
+                </li>
+              ))
+            }
+          </ul>
+        </li>
+        <li>
+          <a href={contactItem.href}>{contactItem.label}</a>
+        </li>
       </ul>
     </div>
   </div>
@@ -102,6 +114,34 @@ navItems.push({
       flex-flow: row wrap;
       justify-content: center;
     }
+
+    .dz-nav__list-child-wrapper__nested {
+      display: none;
+      position: absolute;
+      background-color: white;
+      min-width: 200px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+      z-index: 1000;
+      padding: 8px 0;
+      border-radius: 4px;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    /* Show dropdown on hover */
+    li:hover > .dz-nav__list-child-wrapper__nested {
+      display: block;
+    }
+
+    .dz-nav__list-child-wrapper__nested li {
+      display: block;
+      padding: 8px 16px;
+    }
+
+    .dz-nav__list-child-wrapper__nested li:not(:first-child)::before {
+      content: none;
+    }
   }
 
   .dz-nav__image {
@@ -129,6 +169,7 @@ navItems.push({
   }
 
   li {
+    color: var(--color-primary-red);
     list-style-type: none;
     position: relative;
   }
@@ -148,8 +189,7 @@ navItems.push({
 
   a.highlight {
     color: var(--color-primary-red);
-    text-decoration: none;
-    font-size: var(--font-size-m);
+    text-decoration: underline;
     font-weight: bold;
   }
 
@@ -240,10 +280,50 @@ navItems.push({
       padding: 10vh 24px 24px 0;
     }
 
+    .dz-nav__list-child-wrapper li.dz-heading {
+      color: var(--color-primary-red);
+      padding-left: 0;
+      font-size: var(--font-size-m);
+      letter-spacing: 1px;
+      border-top: 1px solid #ddd;
+      border-bottom: 1px solid #ddd;
+      margin-bottom: 8px;
+      padding-bottom: 4px;
+    }
+
+    .dz-nav__list-child-wrapper li.dz-heading a {
+      font-size: var(--font-size-m);
+    } 
+    
+    .dz-nav__list-child-wrapper__nested {
+      margin-left: 16px;
+    }
+
+    .dz-nav__list-child-wrapper__nested {
+      position: static;
+      box-shadow: none;
+      min-width: auto;
+      transform: none;
+      padding-left: 16px;
+      display: block;
+    }
+
+    .dz-nav__list-child-wrapper__nested > li {
+      list-style-type: circle;
+    }
+    
+    .dz-nav__list-child-wrapper__nested > li,
+    .dz-nav__list-child-wrapper__nested a {
+      padding: 0 0 6px 0 !important;
+      line-height: 80%;
+    }
+
     .dz-nav__list li {
       padding: 8px 0;
       transition-delay: 2s;
       margin-left: 16px;
+      font-weight: bold;
+      font-size: var(--font-size-lg);
     }
 
     .dz-nav__menu-toggle input:checked ~ div.dz-nav__list {
